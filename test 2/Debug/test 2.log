@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\пограммирование\test 2\test 2\source.cpp(14): warning C4552: '+': operator has no effect; expected operator with side-effect
+  test 2.vcxproj -> C:\пограммирование\test 2\Debug\test 2.exe
+  test 2.vcxproj -> C:\пограммирование\test 2\Debug\test 2.pdb (Full PDB)
