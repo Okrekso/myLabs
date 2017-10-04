@@ -2,33 +2,33 @@
 using namespace std;
 void get(int arr[], int size)
 {
-	cout << "first view of arr:";
+	printf("first view of arr:");
 	for (int i = 0; i < size; i++)
-		cout << arr[i] << "; ";
+		printf("%d", arr[i]); printf("; ");
 	
-	cout << endl;
+	printf("\n");
     int *newarray = new int[size];
 	for (int i = 0; i < size; i++)
 	{
 		newarray[i] = (i + 1) % 2 == 0 ? arr[i - 1] : i == size - 1 ? arr[i] : arr[i + 1];
 	}
-	cout << "new array: ";
+	printf("new array: ");
 	for (int i = 0; i < size; i++)
-		cout << newarray[i] << "; ";
-	cout << endl;
+		printf("%d",newarray[i]); printf("; ");
+	printf("\n");
 }
 
 int main()
 {
 	int *arr,size;
-	cout << "insert array size: ";
-	cin >> size;
+	printf("insert array size: ");
+	scanf_s("%d",&size);
 	arr = new int[size];
 	for (int i = 0; i < size; i++)
 	{
-		cout << "elem #" << i + 1 << ": ";
-		cin >> arr[i];
-		cout << endl;
+		printf("elem #"); printf("%d", i+1); printf(": ");
+		scanf_s("%d",&arr[i]);
+		printf("\n");
 	}	
 	get(arr, size);
 	
