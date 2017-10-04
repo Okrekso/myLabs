@@ -1,4 +1,3 @@
 ﻿  Source.cpp
-c:\пограммирование\test 2\test 2\source.cpp(14): warning C4552: '+': operator has no effect; expected operator with side-effect
-  test 2.vcxproj -> C:\пограммирование\test 2\Debug\test 2.exe
-  test 2.vcxproj -> C:\пограммирование\test 2\Debug\test 2.pdb (Full PDB)
+c:\git\mylab\mylabs\test 2\source.cpp(14): warning C4552: '+': operator has no effect; expected operator with side-effect
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): error MSB6006: "link.exe" exited with code 1.
