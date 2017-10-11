@@ -1,0 +1,4 @@
+﻿  lab_1.cpp
+c:\git\mylab\labs\labs\lab_1.cpp(21): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::bitset<4>'
+  labs.vcxproj -> C:\git\myLab\labs\Debug\lab_1.exe
+  labs.vcxproj -> C:\git\myLab\labs\Debug\lab_1.pdb (Full PDB)
