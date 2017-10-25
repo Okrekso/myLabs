@@ -13,7 +13,7 @@ int main()
 	printf("insert: ");
 	scanf("%d", &a);
 
-	int *f = &a; int *e = &k;
+	int *f = &a; unsigned int *e = &k;
 	get(f, e);
 
 	printf("its: %d", k);

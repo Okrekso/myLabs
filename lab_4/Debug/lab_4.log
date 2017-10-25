@@ -1,0 +1,4 @@
+﻿  lab_4.cpp
+c:\git\mylabs\lab_4\lab_4.cpp(46): warning C4101: 'ex': unreferenced local variable
+  lab_4.vcxproj -> C:\git\myLabs\Debug\lab_4.exe
+  lab_4.vcxproj -> C:\git\myLabs\Debug\lab_4.pdb (Full PDB)

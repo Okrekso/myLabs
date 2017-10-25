@@ -1,4 +1,9 @@
 ﻿  lab_1.cpp
-c:\git\mylab\labs\labs\lab_1.cpp(21): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::bitset<4>'
-  labs.vcxproj -> C:\git\myLab\labs\Debug\lab_1.exe
-  labs.vcxproj -> C:\git\myLab\labs\Debug\lab_1.pdb (Full PDB)
+c:\git\mylabs\labs\lab_1.cpp(16): error C2440: 'initializing': cannot convert from 'unsigned int *' to 'int *'
+  c:\git\mylabs\labs\lab_1.cpp(16): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\git\mylabs\labs\lab_1.cpp(17): error C2664: 'void get(int *,unsigned int *)': cannot convert argument 2 from 'int *' to 'unsigned int *'
+  c:\git\mylabs\labs\lab_1.cpp(17): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\git\mylabs\labs\lab_1.cpp(14): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\git\mylabs\labs\lab_1.cpp(22): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
