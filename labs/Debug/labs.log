@@ -1,9 +1,2097 @@
-﻿  lab_1.cpp
-c:\git\mylabs\labs\lab_1.cpp(16): error C2440: 'initializing': cannot convert from 'unsigned int *' to 'int *'
-  c:\git\mylabs\labs\lab_1.cpp(16): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-c:\git\mylabs\labs\lab_1.cpp(17): error C2664: 'void get(int *,unsigned int *)': cannot convert argument 2 from 'int *' to 'unsigned int *'
-  c:\git\mylabs\labs\lab_1.cpp(17): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-c:\git\mylabs\labs\lab_1.cpp(14): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
-c:\git\mylabs\labs\lab_1.cpp(22): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+﻿Build started 22.11.2017 11:01:07.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+ANDROID_NDK_PATH = C:\Program Files\Android\ndk\android-ndk-r11c
+APPDATA = C:\Users\sem\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = SEM-PC
+ComSpec = C:\WINDOWS\system32\cmd.exe
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+HOMEDRIVE = C:
+HOMEPATH = \Users\sem
+LOCALAPPDATA = C:\Users\sem\AppData\Local
+LOGONSERVER = \\SEM-PC
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\sem\OneDrive
+OS = Windows_NT
+Path = C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;C:\Users\sem\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\sem\AppData\Local\Microsoft\VisualStudio\15.0_ea639d4d\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 4e03
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\sem\AppData\Local\Temp
+TMP = C:\Users\sem\AppData\Local\Temp
+USERDOMAIN = SEM-PC
+USERDOMAIN_ROAMINGPROFILE = SEM-PC
+USERNAME = sem
+USERPROFILE = C:\Users\sem
+VisualStudioDir = C:\Users\sem\Documents\Visual Studio 2017
+VisualStudioEdition = Microsoft Visual Studio Community 2017
+VisualStudioVersion = 15.0
+VLC_PLUGIN_PATH = C:\Users\sem\AppData\Local\AzTorrent\plugins
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSAPPIDDIR = C:\Program Files\visual studio 2017\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+VSLANG = 1033
+VSSKUEDITION = Community
+windir = C:\WINDOWS
+
+11:01:07.975     1>Project "C:\git\myLabs\labs\labs.vcxproj" on node 2 (Rebuild target(s)).
+11:01:07.975     1>Initial Properties:
+                   _AfterCompileWinFXInternalDependsOn = 
+                           PrepareResourcesForSatelliteAssemblies;
+                           MergeLocalizationDirectives;
+                           AfterCompileWinFX
+                       
+                   _ApplicableDebuggers = Desktop
+                   _BuildActionType = Clean
+                   _BuildSuffix = 
+                   :VCEnd
+                   _CheckDev11ToolsInstalled = true
+                   _CompileTargetNameForLocalType = _CompileTemporaryAssembly
+                   _DebugSymbolsProduced = true
+                   _DefaultPlatform = win32
+                   _DeploymentApplicationManifestIdentity = labs.exe
+                   _DeploymentBuiltUpdateInterval = 0
+                   _DeploymentBuiltUpdateIntervalUnits = Days
+                   _DeploymentDeployManifestIdentity = labs.application
+                   _DeploymentFileMappingExtension = 
+                   _DeploymentPublishableProjectDefault = true
+                   _DeploymentTargetApplicationManifestFileName = lab_1.exe.manifest
+                   _DeploymentUrl = 
+                   _Dev11Installed = 
+                   _Dev11WDExpressInstalled = 
+                   _DirectoryBuildPropsBasePath = 
+                   _DirectoryBuildPropsFile = Directory.Build.props
+                   _DirectoryBuildTargetsBasePath = 
+                   _DirectoryBuildTargetsFile = Directory.Build.targets
+                   _DocumentationFileProduced = false
+                   _FullFrameworkReferenceAssemblyPaths = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _GenerateAppxManifestDependsOn = ;_FixVCLibs120References
+                   _GenerateBindingRedirectsIntermediateAppConfig = Debug\labs.vcxproj.lab_1.exe.config
+                   _GenerateRestoreGraphProjectEntryInputProperties = 
+                         RestoreUseCustomAfterTargets=;
+                         NuGetRestoreTargets=C:\Program Files\visual studio 2017\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;
+                         BuildProjectReferences=false;
+                         ExcludeRestorePackageImports=true;
+                       
+                   _GetChildProjectCopyToOutputDirectoryItems = true
+                   _HandlePackageFileConflictsAfter = ResolveNuGetPackageAssets
+                   _HandlePackageFileConflictsBefore = ResolveAssemblyReferences
+                   _IgnoreInstalledPlatformToolset_v110 = true
+                   _IgnoreInstalledPlatformToolset_v110_wp80 = true
+                   _IgnoreInstalledPlatformToolset_v110_xp = true
+                   _InvalidConfigurationMessageText = The OutputPath property is not set for project 'labs.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
+                   _ManifestDependsOn = 
+                         ;
+                         
+                         ;
+                         ComputeManifestInputsTargets;
+                       ;
+                         Manifest;
+                         ComputeManifestGeneratedLinkerInputs;
+                         LinkEmbedManifest;
+                       
+                   _NuGetRuntimeIdentifierPlatformTargetSuffix = -x86
+                   _NuGetRuntimeIdentifierWithoutAot = win-x86
+                   _OriginalConfiguration = Debug
+                   _OriginalPlatform = Win32
+                   _PlatformDefaultPropsPath = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\\Platforms\Win32\\Platform.default.props
+                   _PlatformFolder = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Platforms\Win32\
+                   _PlatformToolsetFriendlyNameFor_v100 = Visual Studio 2010 (v100)
+                   _PlatformToolsetFriendlyNameFor_v110 = Visual Studio 2012 (v110)
+                   _PlatformToolsetFriendlyNameFor_v110_wp80 = Windows Phone 8.0 (v110_wp80)
+                   _PlatformToolsetFriendlyNameFor_v110_xp = Visual Studio 2012 - Windows XP (v110_xp)
+                   _PlatformToolsetFriendlyNameFor_v120 = Visual Studio 2013 (v120)
+                   _PlatformToolsetFriendlyNameFor_v120_wp81 = Windows Phone 8.1 (v120_wp81)
+                   _PlatformToolsetFriendlyNameFor_v120_xp = Visual Studio 2013 - Windows XP (v120_xp)
+                   _PlatformToolsetFriendlyNameFor_v140 = Visual Studio 2015 (v140)
+                   _PlatformToolsetFriendlyNameFor_v140_clang_3_7 = Clang 3.7 with Microsoft CodeGen (v140_clang_3_7)
+                   _PlatformToolsetFriendlyNameFor_v140_clang_c2 = Visual Studio 2015 - Clang with Microsoft CodeGen (v140_clang_c2)
+                   _PlatformToolsetFriendlyNameFor_v140_xp = Visual Studio 2015 - Windows XP (v140_xp)
+                   _PlatformToolsetFriendlyNameFor_v141 = Visual Studio 2017 (v141)
+                   _PlatformToolsetFriendlyNameFor_v141_clang_c2 = Visual Studio 2017 - Clang with Microsoft CodeGen (v141_clang_c2)
+                   _PlatformToolsetFriendlyNameFor_v141_xp = Visual Studio 2017 - Windows XP (v141_xp)
+                   _PlatformToolsetFriendlyNameFor_v90 = Visual Studio 2008 (v90)
+                   _PlatformToolsetShortNameFor_v100 = Visual Studio 2010
+                   _PlatformToolsetShortNameFor_v110 = Visual Studio 2012
+                   _PlatformToolsetShortNameFor_v110_wp80 = Windows Phone 8.0
+                   _PlatformToolsetShortNameFor_v110_xp = Visual Studio 2012 - Windows XP
+                   _PlatformToolsetShortNameFor_v120 = Visual Studio 2013
+                   _PlatformToolsetShortNameFor_v120_wp81 = Windows Phone 8.1
+                   _PlatformToolsetShortNameFor_v120_xp = Visual Studio 2013 - Windows XP
+                   _PlatformToolsetShortNameFor_v140 = Visual Studio 2015
+                   _PlatformToolsetShortNameFor_v140_xp = Visual Studio 2015 - Windows XP
+                   _PlatformToolsetShortNameFor_v90 = Visual Studio 2008
+                   _ProjectDefaultTargets = Build
+                   _ProjectReferenceTargetFrameworkProperties = 
+                   _PropertySheetDisplayName = Application
+                   _RequireMCPass2ForMainAssembly = false
+                   _RequireMCPass2ForSatelliteAssemblyOnly = false
+                   _ResolveReferenceDependencies = false
+                   _ResourceCompileDependsOn = 
+                         
+                         ;
+                         BeforeResourceCompile;
+                       ;
+                         ;
+                         MakeDirsForResourceCompile;
+                         ResourceCompile;
+                         
+                         ;
+                         AfterResourceCompile;
+                       
+                       
+                   _ResourceNameInMainAssembly = labs.g.resources
+                   _SGenDllCreated = false
+                   _SGenDllName = lab_1.XmlSerializers.dll
+                   _SGenGenerateSerializationAssembliesConfig = Off
+                   _TargetFrameworkDirectories = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _TargetFrameworkVersionWithoutV = 4.0
+                   _ToolsetFound = true
+                   _ToolsetPropsPath = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\\Platforms\Win32\PlatformToolsets\v141\Toolset.props
+                   _ToolsetTargetsPath = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\\Platforms\Win32\PlatformToolsets\v141\Toolset.targets
+                   _UpgradePlatformToolsetFor_v100 = v141
+                   _UpgradePlatformToolsetFor_v110 = v141
+                   _UpgradePlatformToolsetFor_v110_xp = v141_xp
+                   _UpgradePlatformToolsetFor_v120 = v141
+                   _UpgradePlatformToolsetFor_v120_xp = v141_xp
+                   _UpgradePlatformToolsetFor_v140 = v141
+                   _UpgradePlatformToolsetFor_v140_xp = v141_xp
+                   _UpgradePlatformToolsetFor_v141 = v141
+                   _UpgradePlatformToolsetFor_v141_xp = v141_xp
+                   _UpgradePlatformToolsetFor_v90 = v141
+                   _VC_Target_Library_Platform = Desktop
+                   _VC_x64_ToolsInstalled = true
+                   _VCToolsVersionProps = C:\Program Files\visual studio 2017\VC\Auxiliary\Build\Microsoft.VCToolsVersion.default.props
+                   AddAdditionalExplicitAssemblyReferences = true
+                   AddAppConfigToBuildOutputs = true
+                   AdditionalExplicitAssemblyReferences = System.Core;
+                   AfterBuildCompileTargets = 
+                         ;
+                         AfterBuildCompileEvent;
+                       
+                   AfterBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         AfterBuildGenerateSources;
+                       ;
+                         AfterBuildGenerateSourcesEvent;
+                       
+                   AfterBuildLinkTargets = 
+                         ;RunMergeNativeCodeAnalysis;RunNativeCodeAnalysis;
+                         CreateSatelliteAssemblies;
+                         _Appverifier;
+                         _Deploy;
+                         PrepareForRun;
+                         PostBuildEvent;
+                       
+                   AfterClCompileTargets = 
+                         ;
+                         AfterClCompile;
+                       
+                   AfterImpLibTargets = 
+                         ;
+                         AfterImpLib;
+                       
+                   AfterLibTargets = 
+                         ;
+                         AfterLib;
+                       
+                   AfterLinkTargets = 
+                         ;
+                         AfterLink;
+                       
+                   AfterManifestTargets = 
+                         ;
+                         AfterManifest;
+                       
+                   AfterMidlTargets = 
+                         ;
+                         AfterMidl;
+                       
+                   AfterResourceCompileTargets = 
+                         ;
+                         AfterResourceCompile;
+                       
+                   AllowedReferenceAssemblyFileExtensions = 
+                         .winmd;
+                         .dll;
+                         .exe
+                       
+                   AllowedReferenceRelatedFileExtensions = 
+                         .pdb;
+                         .xml;
+                         .pri;
+                         .dll.config;
+                         .exe.config
+                       
+                   AllowLocalNetworkLoopback = true
+                   AllProjectOutputGroupsDependsOn = 
+                         ;
+                         BuiltProjectOutputGroup;
+                         DebugSymbolsProjectOutputGroup;
+                         DocumentationProjectOutputGroup;
+                         SatelliteDllsProjectOutputGroup;
+                         SourceFilesProjectOutputGroup;
+                         ContentFilesProjectOutputGroup;
+                         SGenFilesOutputGroup
+                       
+                   ALLUSERSPROFILE = C:\ProgramData
+                   AlwaysCompileMarkupFilesInSeparateDomain = true
+                   ANDROID_NDK_PATH = C:\Program Files\Android\ndk\android-ndk-r11c
+                   AndroidTargetsPath = C:\Program Files\visual studio 2017\MSBuild\Microsoft\MDD\Android\V150\
+                   APPDATA = C:\Users\sem\AppData\Roaming
+                   AppxManifestMetadataClHostArchDir = HostX86
+                   AppxManifestMetadataClTargetArchDir = x86
+                   AssemblyFoldersConfigFile = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\AssemblyFolders.config
+                   AssemblyFoldersConfigFileSearchPath = {AssemblyFoldersFromConfig:C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\AssemblyFolders.config,v4.0};
+                   AssemblyFoldersSuffix = AssemblyFoldersEx
+                   AssemblyName = labs
+                   AssemblySearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {AssemblyFoldersFromConfig:C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\AssemblyFolders.config,v4.0};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {AssemblyFolders};
+                         {GAC};
+                         {RawFileName};
+                         C:\git\myLabs\Debug\
+                       
+                   AssignTargetPathsDependsOn = 
+                   Attach = false
+                   AutoUnifyAssemblyReferences = false
+                   AvailablePlatforms = Any CPU,x86,x64
+                   BaseIntermediateOutputPath = obj\
+                   BaseNuGetRuntimeIdentifier = win
+                   BeforeBuildCompileTargets = 
+                         ;
+                       
+                   BeforeBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         BeforeBuildGenerateSources;
+                       ;
+                       
+                   BeforeClCompileTargets = 
+                         ;
+                         BeforeClCompile;
+                       
+                   BeforeImpLibTargets = 
+                         ;
+                         BeforeImpLib;
+                       
+                   BeforeLibTargets = 
+                         ;
+                         BeforeLib;
+                       
+                   BeforeLinkTargets = 
+                         ;
+                         BeforeLink;
+                       
+                   BeforeManifestTargets = 
+                         ;
+                         BeforeManifest;
+                       
+                   BeforeMidlTargets = 
+                         ;
+                         BeforeMidl;
+                       
+                   BeforeResourceCompileTargets = 
+                         ;
+                         BeforeResourceCompile;
+                       
+                   BuildCompileAction = _BuildCompileAction
+                   BuildCompileTargets = 
+                         ;
+                         _ClCompile;
+                         _ResGen;
+                         _ResourceCompile;
+                         
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       ;
+                       
+                   BuildDependsOn = 
+                         _PrepareForBuild;
+                         
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       ;
+                         AfterBuild;
+                         FinalizeBuildStatus;
+                       
+                   BuildGenerateSourcesAction = _BuildGenerateSourcesAction
+                   BuildGenerateSourcesTargets = 
+                         ;
+                         PreBuildEvent;
+                         _Xsd;
+                         _Midl;
+                       
+                   BuildingInsideVisualStudio = true
+                   BuildingProject = true
+                   BuildInParallel = true
+                   BuildLibTargets = 
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       
+                   BuildLinkAction = _BuildLinkAction
+                   BuildLinkTargets = 
+                         ;
+                         ComputeLegacyManifestEmbedding;
+                         _Link;
+                         _ALink;
+                         _Manifest;
+                         RegisterOutput;
+                         _XdcMake;
+                         _BscMake;
+                       
+                   BuildProjectReferences = true
+                   BuildSteps = 
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       
+                   BuildSystem = MSBuild
+                   BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   BuildType = Rebuild
+                   BuiltProjectOutputGroupDependsOn = PrepareForBuild
+                   CAExcludePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um;
+                   CharacterSet = Unicode
+                   CleanDependsOn = 
+                         
+                         _PrepareForClean;
+                         
+                         
+                         BeforeClean;
+                         UnmanagedUnregistration;
+                         CoreClean;
+                         CleanReferencedProjects;
+                         CleanPublishFolder;
+                         AfterClean
+                       ;
+                         EntityClean;
+                       ;
+                       ;
+                         CppClean
+                       
+                   CleanFile = labs.vcxproj.FileListAbsolute.txt
+                   CLRSupport = false
+                   ClYieldDuringToolExecution = true
+                   CodeAnalysisApplyLogFileXsl = false
+                   CodeAnalysisFailOnMissingRules = false
+                   CodeAnalysisForceOutput = true
+                   CodeAnalysisGenerateSuccessFile = true
+                   CodeAnalysisIgnoreGeneratedCode = true
+                   CodeAnalysisIgnoreInvalidTargets = true
+                   CodeAnalysisIgnoreMissingIndirectReferences = false
+                   CodeAnalysisInputAssembly = C:\git\myLabs\Debug\lab_1.exe
+                   CodeAnalysisLogFile = C:\git\myLabs\Debug\lab_1.exe.CodeAnalysisLog.xml
+                   CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.cpp
+                   CodeAnalysisOutputToConsole = false
+                   CodeAnalysisOverrideRuleVisibilities = false
+                   CodeAnalysisPath = C:\Program Files\visual studio 2017\Team Tools\Static Analysis Tools\FxCop\
+                   CodeAnalysisQuiet = false
+                   CodeAnalysisRuleDirectories = ;C:\Program Files\visual studio 2017\Team Tools\Static Analysis Tools\FxCop\\Rules
+                   CodeAnalysisRuleSet = NativeRecommendedRules.ruleset
+                   CodeAnalysisRuleSetDirectories = ;C:\Program Files\visual studio 2017\Team Tools\Static Analysis Tools\\Rule Sets
+                   CodeAnalysisSaveMessagesToReport = Active
+                   CodeAnalysisSearchGlobalAssemblyCache = true
+                   CodeAnalysisStaticAnalysisDirectory = C:\Program Files\visual studio 2017\Team Tools\Static Analysis Tools\
+                   CodeAnalysisSucceededFile = C:\git\myLabs\Debug\lab_1.exe.lastcodeanalysissucceeded
+                   CodeAnalysisSummary = false
+                   CodeAnalysisTargets = C:\Program Files\visual studio 2017\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+                   CodeAnalysisTimeout = 120
+                   CodeAnalysisTLogFile = Debug\CodeAnalysis.read.1.tlog
+                   CodeAnalysisTreatWarningsAsErrors = false
+                   CodeAnalysisUpdateProject = false
+                   CodeAnalysisUseTypeNameInSuppression = true
+                   CodeAnalysisVerbose = false
+                   CommonBuildOnlyTargets = 
+                         PrepareForBuild;
+                         ResolveReferences;
+                       
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   CommonTargetsPath = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets
+                   CommonXamlResourcesDirectory = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\en-US\
+                   CompileDependsOn = 
+                           
+                         ResolveReferences;
+                         ResolveKeySource;
+                         SetWin32ManifestProperties;
+                         FindReferenceAssembliesForReferences;
+                         _GenerateCompileInputs;
+                         BeforeCompile;
+                         _TimeStampBeforeCompile;
+                         _GenerateCompileDependencyCache;
+                         CoreCompile;
+                         _TimeStampAfterCompile;
+                         AfterCompile;
+                       ;
+                           _AfterCompileWinFXInternal
+                       
+                   CompileLicxFilesDependsOn = 
+                   CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+                   ComputeCompileInputsTargets = 
+                         
+                         
+                         ;
+                         ComputeMIDLGeneratedCompileInputs;
+                       ;
+                         ComputeCLInputPDBName;
+                         ComputeReferenceCLInput;
+                         WarnCompileDuplicatedFilename
+                       ;
+                         FixupCLCompileOptions;
+                       
+                   ComputeImpLibInputsTargets = 
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeRCGeneratedImpLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedImpLibInputs;
+                       ;
+                           ComputeImpLibInputsFromProject;
+                         
+                   ComputeIntermediateSatelliteAssembliesDependsOn = 
+                         CreateManifestResourceNames
+                       
+                   ComputeLibInputsTargets = 
+                         ComputeLibAdditionalOptions;
+                         
+                         
+                           
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLibInputs;
+                       ;
+                           ComputeLibInputsFromProject;
+                         ;
+                         ComputeReferenceLibInputs;
+                       
+                       
+                   ComputeLinkInputsTargets = 
+                         
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLinkInputs;
+                       ;
+                         ComputeManifestGeneratedLinkerInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLinkInputs;
+                       ;
+                           ComputeLinkInputsFromProject;
+                         ;
+                         ComputeReferenceLinkInputs;
+                       
+                   ComputeManifestInputsTargets = 
+                         ;
+                         ComputeManifestInputsTargets;
+                       
+                   COMPUTERNAME = SEM-PC
+                   ComReferenceExecuteAsTool = false
+                   ComReferenceNoClassMembers = false
+                   ComSpec = C:\WINDOWS\system32\cmd.exe
+                   Configuration = Debug
+                   ConfigurationName = Debug
+                   ConfigurationType = Application
+                   ConsiderPlatformAsProcessorArchitecture = true
+                   ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc
+                   ContinueOnError = false
+                   CopyNuGetImplementations = true
+                   CoreBuildDependsOn = 
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         PreBuildEvent;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         Compile;
+                         ExportWindowsMDFile;
+                         UnmanagedUnregistration;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                         GenerateManifests;
+                         GetTargetPath;
+                         PrepareForRun;
+                         UnmanagedRegistration;
+                         IncrementalClean;
+                         PostBuildEvent
+                       
+                   CoreCleanDependsOn = 
+                   CoreCompileDependsOn = 
+                           DesignTimeXamlMarkupCompilation;
+                           
+                             DesignTimeMarkupCompilation;
+                             
+                         
+                       
+                   CoreCppCleanDependsOn = 
+                   CoreResGenDependsOn = FindReferenceAssembliesForReferences
+                   CppCleanDependsOn = 
+                         BeforeCppClean;
+                         ;
+                         CoreCppClean;
+                         AfterCppClean;
+                       ;PGInstrumentedClean
+                   CppCleanLogFile = lab_1.Build.CppClean.log
+                   CreateCustomManifestResourceNamesDependsOn = 
+                   CreateHardLinksForCopyAdditionalFilesIfPossible = false
+                   CreateManifestResourceNamesDependsOn = 
+                   CreateSatelliteAssembliesDependsOn = 
+                         _GenerateSatelliteAssemblyInputs;
+                         ComputeIntermediateSatelliteAssemblies;
+                         GenerateSatelliteAssemblies
+                       
+                   CreateSymbolicLinksForCopyAdditionalFilesIfPossible = false
+                   CRTDefinitionalFile = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\VCProjectDefault\Microsoft.AppX.VCFrameworkReferences.xml
+                   CrtSDKReferenceInclude = Microsoft.VCLibs, Version=14.0
+                   CrtSDKReferenceVersion = 14.0
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                   <ProjectConfiguration Project="{0c8b8759-b0f0-4dba-af64-ecc179d61a94}" AbsolutePath="C:\git\myLabs\labs\labs.vcxproj">Debug|Win32</ProjectConfiguration>
+                   <ProjectConfiguration Project="{034781d6-e85b-4c7c-99b7-dfb31008b14c}" AbsolutePath="C:\git\myLabs\lab_2\lab_2.vcxproj">Debug|Win32</ProjectConfiguration>
+                   <ProjectConfiguration Project="{25b09c65-ce89-4242-9133-ed8f40832a15}" AbsolutePath="C:\git\myLabs\lab_3\lab_3.vcxproj">Debug|Win32</ProjectConfiguration>
+                   <ProjectConfiguration Project="{a302bd2b-85be-46d8-b42b-784415d4a58a}" AbsolutePath="C:\git\myLabs\lab_4\lab_4.vcxproj">Debug|Win32</ProjectConfiguration>
+                   <ProjectConfiguration Project="{523b7d6a-4676-4398-a9ef-256c8186c787}" AbsolutePath="C:\git\myLabs\lab_5\lab_5.vcxproj">Debug|Win32</ProjectConfiguration>
+                   <ProjectConfiguration Project="{6e674d64-0b43-4173-b75c-7b01d011d9d9}" AbsolutePath="C:\git\myLabs\lab_6\lab_6.vcxproj">Debug|Win32</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   CustomAfterMicrosoftCommonProps = C:\Program Files\visual studio 2017\MSBuild\v15.0\Custom.After.Microsoft.Common.props
+                   CustomAfterMicrosoftCommonTargets = C:\Program Files\visual studio 2017\MSBuild\v15.0\Custom.After.Microsoft.Common.targets
+                   CustomBeforeMicrosoftCommonProps = C:\Program Files\visual studio 2017\MSBuild\v15.0\Custom.Before.Microsoft.Common.props
+                   CustomBeforeMicrosoftCommonTargets = C:\Program Files\visual studio 2017\MSBuild\v15.0\Custom.Before.Microsoft.Common.targets
+                   CustomBuildAfterTargets = BscMake
+                   CustomBuildBeforeTargets = PostBuildEvent
+                   CustomBuildToolAfterTargets = PreBuildEvent
+                   CustomBuildToolBeforeTargets = Midl
+                   DebugCppRuntimeFilesPath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\redist\Debug_NonRedist\x86
+                   DebuggerFlavor = WindowsLocalDebugger
+                   DebuggerLaunchApplication = true
+                   DebuggerRequireAuthentication = true
+                   DebuggerType = NativeOnly
+                   DebugSymbols = true
+                   DebugSymbolsProjectOutputGroupDependsOn = 
+                   DefaultLanguageSourceExtension = .cpp
+                   DefaultPlatformToolset = v141
+                   DefaultToolArchitecture = Native32Bit
+                   DefaultWindowsSDKVersion = 8.1
+                   DefineCommonReferenceSchemas = 
+                   DelayImplib = Delayimp.lib
+                   DelaySign = 
+                   DeploymentType = Installed
+                   DesignTimeBuildInitTargets = _PrepareForReferenceResolution;;InitGetClCommandLines;ResolveReferences;FixupReferences
+                   DesignTimeIntermediateOutputPath = Debug\InProcessTempFiles\
+                   DesignTimeResolveAssemblyReferencesDependsOn = 
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         ResolveReferences
+                       
+                   DetermineProjectTypeTargets = _PrepareForReferenceResolution;
+                   DevEnvDir = C:\Program Files\visual studio 2017\Common7\IDE\
+                   DockerBuildTasksAssembly = C:\Program Files\visual studio 2017\MSBuild\Sdks\Microsoft.Docker.Sdk\build\..\tools\Microsoft.Docker.BuildTasks.dll
+                   DockerIntermediateOutputPath = obj\Docker
+                   DockerPublishDirectory = obj\Docker\publish
+                   DocumentationProjectOutputGroupDependsOn = ResolvedXDCMake;ComputeCLCompileGeneratedXDCFiles
+                   DocumentLibraryDependencies = true
+                   DotNetSdk_IncludePath = Include\um
+                   DotNetSdk_LibraryPath = lib\um
+                   DotNetSdk_LibraryPath_arm = lib\um\arm
+                   DotNetSdk_LibraryPath_arm64 = lib\um\arm64
+                   DotNetSdk_LibraryPath_x64 = lib\um\x64
+                   DotNetSdk_LibraryPath_x86 = lib\um\x86
+                   DotNetSdkRoot = 
+                   EmbeddedWin32Manifest = 
+                   EmbedManifest = true
+                   EmbedManifestBy = LINK
+                   EnableCppCoreCheck = false
+                   EnableExperimentalCppCoreCheck = false
+                   EnableManagedIncrementalBuild = false
+                   EntityDeployDependsOn = 
+                   EntityDeployIntermediateResourcePath = Debug\edmxResourcesToEmbed\
+                   ExcludePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib;
+                   ExecutablePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files\visual studio 2017\Common7\tools;C:\Program Files\visual studio 2017\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;C:\Users\sem\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;;
+                   ExpandSDKAllowedReferenceExtensions = 
+                         .winmd;
+                         .dll
+                       
+                   ExpandSDKReferencesDependsOn = 
+                         ResolveSDKReferences
+                       
+                   ExtensionsToDeleteOnClean = *.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;C:\git\myLabs\Debug\lab_1.exe.manifest;C:\git\myLabs\Debug\lab_1.tlb;C:\git\myLabs\Debug\lab_1.pdb;C:\git\myLabs\Debug\lab_1.exe;C:\git\myLabs\Debug\lab_1.bsc;C:\git\myLabs\Debug\lab_1.ilk;C:\git\myLabs\Debug\lab_1.exe.intermediate.manifest;C:\git\myLabs\Debug\lab_1.exe.CodeAnalysisLog.xml;C:\git\myLabs\Debug\lab_1.exe.lastcodeanalysissucceeded
+                   FindInvalidProjectReferencesDependsOn = 
+                         GetReferenceTargetPlatformMonikers
+                       
+                   FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+                   FPS_BROWSER_USER_PROFILE_STRING = Default
+                   Framework20Dir = @(_TargetFramework20DirectoryItem)
+                   Framework30Dir = @(_TargetFramework30DirectoryItem)
+                   Framework35Dir = @(_TargetFramework35DirectoryItem)
+                   Framework40Dir = @(_TargetFramework40DirectoryItem)
+                   FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkDir_110 = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   FrameworkRegistryBase = Software\Microsoft\.NETFramework
+                   FrameworkSdkDir = C:\Program Files (x86)\Windows Kits\10\
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+                   FrameworkVersion = v4.6
+                   FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+                   FullReferenceAssemblyNames = Full
+                   FxCompileAfterTargets = CustomBuild
+                   FxCompileBeforeTargets = Midl
+                   GenerateBindingRedirectsOutputType = true
+                   GenerateClickOnceManifests = 
+                   GeneratedFileExtension = .g.cpp
+                   GenerateManifest = true
+                   GenerateManifestsDependsOn = 
+                         SetWin32ManifestProperties;
+                         GenerateApplicationManifest;
+                         GenerateDeploymentManifest
+                       
+                   GenerateTargetFrameworkAttribute = false
+                   GetCopyToOutputDirectoryItemsDependsOn = 
+                         AssignTargetPaths;
+                         _SplitProjectReferencesByFileExistence;
+                         _GetProjectReferenceTargetFrameworkProperties
+                       
+                   GetFrameworkPathsDependsOn = 
+                   GetReferenceAssemblyPathsDependsOn = 
+                           ;
+                           GetWinFXPath
+                       
+                   GetTargetPathDependsOn = _PrepareForReferenceResolution;GetResolvedWinMD;
+                   GetTargetPathWithTargetPlatformMonikerDependsOn = 
+                   GPURefDebuggerBreakOnAllThreads = GPURefBreakOncePerWarp
+                   HideWarningsAndErrors = false
+                   HighEntropyVA = false
+                   HOMEDRIVE = C:
+                   HOMEPATH = \Users\sem
+                   HostInBrowser = false
+                   IgnoreImportLibrary = false
+                   ImplicitlyExpandDesignTimeFacadesDependsOn = 
+                         ;
+                         GetReferenceAssemblyPaths
+                       
+                   ImportByWildcardAfterMicrosoftCommonProps = true
+                   ImportByWildcardAfterMicrosoftCommonTargets = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportByWildcardBeforeMicrosoftCommonProps = true
+                   ImportByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   ImportDirectoryBuildProps = true
+                   ImportDirectoryBuildTargets = true
+                   ImportProjectExtensionProps = true
+                   ImportProjectExtensionTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonProps = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonProps = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   ImportXamlTargets = true
+                   IncludeFrameworkReferencesFromNuGet = true
+                   IncludePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um;
+                   IncludeVersionInInteropName = true
+                   IntDir = Debug\
+                   IntermediateOutputPath = Debug\
+                   InteropOutputPath = Interop\
+                   iOSTargetsPath = C:\Program Files\visual studio 2017\MSBuild\Microsoft\MDD\iOS\V150\
+                   IsApplication = true
+                   IsRestoreTargetsFileLoaded = true
+                   Keyword = Win32Proj
+                   KIT_SHARED_IncludePath = C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared
+                   LangID = 1033
+                   LangName = en-US
+                   Language = C++
+                   LastBuildState = Debug\lab_1.tlog\lab_1.lastbuildstate
+                   LastBuildUnsuccessful = Debug\lab_1.tlog\unsuccessfulbuild
+                   LibraryPath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86;lib\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86
+                   LibraryWPath = C:\Program Files (x86)\Windows Kits\10\References;
+                   LinkCompiled = true
+                   LinkIncremental = true
+                   LoadTimeSensitiveProperties = 
+                         ;
+                       
+                   LoadTimeSensitiveTargets = 
+                         ;
+                         XamlMarkupCompilePass1;
+                       
+                   LOCALAPPDATA = C:\Users\sem\AppData\Local
+                   LocalDebuggerAttach = False
+                   LocalDebuggerCommand = C:\git\myLabs\Debug\lab_1.exe
+                   LocalDebuggerDebuggerType = Auto
+                   LocalDebuggerMergeEnvironment = true
+                   LocalDebuggerSQLDebugging = False
+                   LocalDebuggerWorkingDirectory = C:\git\myLabs\labs\
+                   LocalGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   LocalizationDirectivesToLocFile = None
+                   LOGONSERVER = \\SEM-PC
+                   ManagedAssembly = false
+                   ManagedExpressionEvaluatorRegKey = 
+                   ManagedIncrementalBuildProcessDependencyGraphAfterTarget = 
+                         ClCompile
+                       
+                   ManagedIncrementalBuildProcessDependencyGraphBeforeTarget = 
+                         ClCompile
+                       
+                   MarkupCompilePass2ForMainAssemblyDependsOn = 
+                                        GenerateTemporaryTargetAssembly;
+                                        MarkupCompilePass2;
+                                        AfterMarkupCompilePass2;
+                                        CleanupTemporaryTargetAssembly
+                          
+                   MaxTargetPath = 100
+                   MergedOutputCodeAnalysisFile = Debug\vc.nativecodeanalysis.all.xml
+                   MetagenInputTarget = Link
+                   MetaGenTargets = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\\Microsoft.MetaGen.targets
+                   MicrosoftCommonPropsHasBeenImported = true
+                   MicrosoftNETBuildExtensionsTargets = C:\Program Files\visual studio 2017\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets
+                   MicrosoftNETBuildExtensionsTasksAssembly = C:\Program Files\visual studio 2017\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll
+                   MidlYieldDuringToolExecution = true
+                   MpiDebuggerCleanupDeployment = True
+                   MpiDebuggerDebuggerType = Auto
+                   MpiDebuggerDeployCommonRuntime = True
+                   MpiDebuggerNetworkSecurityMode = AnyAddress
+                   MpiDebuggerSchedulerNode = localhost/1
+                   MpiDebuggerSchedulerTimeout = 5000
+                   MsAppxPackageTargets = C:\Program Files\visual studio 2017\MSBuild\Microsoft\VisualStudio\v15.0\AppxPackage\Microsoft.AppXPackage.Targets
+                   MSBuild_ExecutablePath = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildAllProjects = ;C:\git\myLabs\labs\labs.vcxproj;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.targets;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.props;C:\git\myLabs\labs\labs.vcxproj;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Xaml.targets;C:\Program Files\visual studio 2017\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files\visual studio 2017\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files\visual studio 2017\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files\visual studio 2017\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets;C:\Program Files\visual studio 2017\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets;C:\Program Files\visual studio 2017\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets
+                   MSBuildAssemblyVersion = 15.0
+                   MSBuildBinPath = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin
+                   MSBuildExtensionsPath = C:\Program Files\visual studio 2017\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files\visual studio 2017\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildFrameworkToolsPath = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildFrameworkToolsPath32 = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildFrameworkToolsPath64 = C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\
+                   MSBuildFrameworkToolsRoot = C:\WINDOWS\Microsoft.NET\Framework\
+                   MSBuildLastTaskResult = true
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 4
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\git\myLabs\labs
+                   MSBuildProjectDirectoryNoRoot = git\myLabs\labs
+                   MSBuildProjectExtension = .vcxproj
+                   MSBuildProjectExtensionsPath = C:\git\myLabs\labs\obj\
+                   MSBuildProjectFile = labs.vcxproj
+                   MSBuildProjectFullPath = C:\git\myLabs\labs\labs.vcxproj
+                   MSBuildProjectName = labs
+                   MSBuildRuntimeType = Full
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildSDKsPath = C:\Program Files\visual studio 2017\MSBuild\Sdks
+                   MSBuildStartupDirectory = C:\git\myLabs
+                   MSBuildToolsPath = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin
+                   MSBuildToolsPath32 = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin
+                   MSBuildToolsPath64 = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\amd64
+                   MSBuildToolsRoot = C:\Program Files\visual studio 2017\MSBuild
+                   MSBuildToolsVersion = 15.0
+                   MSBuildUserExtensionsPath = C:\Users\sem\AppData\Local\Microsoft\MSBuild
+                   MsTestToolsTargets = C:\Program Files\visual studio 2017\MSBuild\Microsoft\VisualStudio\v15.0\TeamTest\Microsoft.TeamTest.targets
+                   MultiToolTask = false
+                   NativeCodeAnalysisTLogFile = Debug\NativeCodeAnalysis.read.1.tlog
+                   NetFrameworkPropsPath = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.props
+                   NetFrameworkTargetsPath = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets
+                   NetfxCoreRuntimeSettingsTargets = C:\Program Files (x86)\MSBuild\15.0\.Net\CoreRuntime\Microsoft.Net.CoreRuntime.Settings.targets
+                   NetfxCoreRuntimeTargets = C:\Program Files (x86)\MSBuild\15.0\.Net\CoreRuntime\Microsoft.Net.CoreRuntime.targets
+                   NETFXKitsDir = C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\
+                   NETFXSDKDir = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+                   NuGetProps = C:\Program Files\visual studio 2017\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.props
+                   NuGetRestoreTargets = C:\Program Files\visual studio 2017\MSBuild\..\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets
+                   NuGetRuntimeIdentifier = win-x86
+                   NuGetTargetFrameworkMonikerToInject = .NETCore,Version=v5.0
+                   NuGetTargetMoniker = .NETFramework,Version=v4.0
+                   NuGetTargetMonikerToInject = .NETCore,Version=v5.0
+                   NuGetTargets = C:\Program Files\visual studio 2017\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets
+                   NUMBER_OF_PROCESSORS = 4
+                   OneDrive = C:\Users\sem\OneDrive
+                   OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration = true
+                   OS = Windows_NT
+                   OSVersion = 5.1.2600.0
+                   OutDir = C:\git\myLabs\Debug\
+                   OutDirWasSpecified = false
+                   OutputPath = C:\git\myLabs\Debug\
+                   OutputType = exe
+                   OverwriteReadOnlyFiles = false
+                   Path = C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;C:\Users\sem\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   PkgDefApplicationConfigFile = C:\Users\sem\AppData\Local\Microsoft\VisualStudio\15.0_ea639d4d\devenv.exe.config
+                   Platform = Win32
+                   Platform_Actual = Win32
+                   PlatformArchitecture = 32
+                   PlatformName = Win32
+                   PlatformPropsFound = true
+                   PlatformShortName = x86
+                   PlatformTarget = x86
+                   PlatformTargetAsMSBuildArchitecture = x86
+                   PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+                   PlatformTargetsFound = true
+                   PlatformToolset = v141
+                   PlatformToolsetVersion = 141
+                   PostBuildEventDependsOn = 
+                   PostBuildEventUseInBuild = true
+                   PreBuildEventDependsOn = 
+                   PreBuildEventUseInBuild = true
+                   Prefer32Bit = false
+                   PreferredToolArchitecture = x86
+                   PreLinkEventUseInBuild = true
+                   PrepareForBuildDependsOn = PlatformPrepareForBuild;Desktop_PlatformPrepareForBuild;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables
+                   PrepareForRunDependsOn = 
+                         CopyFilesToOutputDirectory
+                       
+                   PrepareProjectReferencesDependsOn = 
+                         AssignProjectConfiguration;
+                         _SplitProjectReferencesByFileExistence;
+                         _GetProjectReferenceTargetFrameworkProperties
+                       
+                   PrepareResourceNamesDependsOn = 
+                                       AssignWinFXEmbeddedResource;
+                                       
+                         AssignTargetPaths;
+                         SplitResourcesByCulture;
+                         CreateManifestResourceNames;
+                         CreateCustomManifestResourceNames
+                       
+                         
+                   PrepareResourcesDependsOn = ResolveNuGetPackageAssets;
+                         XamlMarkupCompilePass1;
+                         XamlMarkupCompilePass2;
+                         
+                                   MarkupCompilePass1;
+                                   AfterMarkupCompilePass1;
+                                   MarkupCompilePass2ForMainAssembly;
+                                   FileClassification;
+                                   MainResourcesGeneration;
+                                   
+                         PrepareResourceNames;
+                         ResGen;
+                         CompileLicxFiles
+                       
+                          
+                       
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 4e03
+                   ProcessorArchitecture = x86
+                   ProduceReferenceAssembly = false
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   ProjectDesignTimeAssemblyResolutionSearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {RawFileName};
+                         C:\git\myLabs\Debug\
+                       
+                   ProjectDir = C:\git\myLabs\labs\
+                   ProjectEvaluationFingerprint = Debug|Win32|C:\git\myLabs\|
+                   ProjectExt = .vcxproj
+                   ProjectFileName = labs.vcxproj
+                   ProjectFlavor = Client
+                   ProjectGuid = {0C8B8759-B0F0-4DBA-AF64-ECC179D61A94}
+                   ProjectLockFile = obj\project.assets.json
+                   ProjectName = lab_1
+                   ProjectNSettingsTargets = C:\Program Files (x86)\MSBuild\15.0\.Net\.NetNative\15.0.24211\Microsoft.NetNative.Settings.targets
+                   ProjectNTargets = C:\Program Files (x86)\MSBuild\15.0\.Net\.NetNative\15.0.24211\Microsoft.NetNative.targets
+                   ProjectPath = C:\git\myLabs\labs\labs.vcxproj
+                   PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\
+                   PUBLIC = C:\Users\Public
+                   PublishableProject = true
+                   PublishBuildDependsOn = 
+                               BuildOnlySettings;
+                               PrepareForBuild;
+                               ResolveReferences;
+                               PrepareResources;
+                               ResolveKeySource;
+                               PrepareResourcesForSatelliteAssemblies;
+                               GenerateSerializationAssemblies;
+                               CreateSatelliteAssemblies;
+                           
+                   PublishDependsOn = 
+                         SetGenerateManifests;
+                         Build;
+                         PublishOnly
+                       
+                   PublishDir = C:\git\myLabs\Debug\app.publish\
+                   PublishOnlyDependsOn = 
+                         SetGenerateManifests;
+                         PublishBuild;
+                         BeforePublish;
+                         GenerateManifests;
+                         CopyFilesToOutputDirectory;
+                         _CopyFilesToPublishFolder;
+                         _DeploymentGenerateBootstrapper;
+                         ResolveKeySource;
+                         _DeploymentSignClickOnceDeployment;
+                         AfterPublish
+                       
+                   RebuildDependsOn = 
+                         _PrepareForRebuild;
+                         
+                         BeforeRebuild;
+                         Clean;
+                         Build;
+                         AfterRebuild;
+                       ;
+                       
+                   ReferencePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;
+                   ReferringTargetFrameworkForProjectReferences = .NETFramework,Version=v4.0
+                   RemoteDebuggerAttach = False
+                   RemoteDebuggerConnection = RemoteWithAuthentication
+                   RemoteDebuggerDebuggerType = Auto
+                   RemoteDebuggerDeployDebugCppRuntime = true
+                   RemoteDebuggerServerName = SEM-PC
+                   RemoteDebuggerSQLDebugging = False
+                   RemoteDebuggerWorkingDirectory = C:\git\myLabs\labs\
+                   RemoteGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   ReportingServicesTargets = C:\Program Files\visual studio 2017\MSBuild\Microsoft\VisualStudio\v15.0\ReportingServices\Microsoft.ReportingServices.targets
+                   RequiredBundles = Microsoft.VisualStudio.Component.VC.Tools.x86.x64;
+                   ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+                   ResGenExecuteAsTool = false
+                   ResolveAssemblyConflicts = true
+                   ResolveAssemblyReferencesDependsOn = _PrepareForReferenceResolution;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       ;ResolveNuGetPackageAssets
+                   ResolveNuGetPackageAssetsDependsOn = ResolveProjectReferences
+                   ResolveNuGetPackages = true
+                   ResolveReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         
+                         
+                         BeforeResolveReferences;
+                         AssignProjectConfiguration;
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         ResolveNativeReferences;
+                         ResolveAssemblyReferences;
+                         GenerateBindingRedirects;
+                         ResolveComReferences;
+                         AfterResolveReferences
+                       ;
+                         ImplicitlyExpandDesignTimeFacades
+                       ;
+                         ResolveTestReferences
+                       
+                   ResolveSDKReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         GetInstalledSDKLocations
+                       
+                   RestoreContinueOnError = WarnAndContinue
+                   RestoreRecursive = true
+                   RestoreTaskAssemblyFile = NuGet.Build.Tasks.dll
+                   RetargetAlwaysSupported = true
+                   RootNamespace = labs
+                   RoslynTargetsPath = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Roslyn
+                   RunAfterInstall = true
+                   RunCodeAnalysisDependsOn = ;ClCompile;RunMergeNativeCodeAnalysis
+                   RunCodeAnalysisInputs = C:\git\myLabs\Debug\lab_1.exe
+                   RunDependsOn = 
+                   RunMergeNativeCodeAnalysisDependsOn = ClCompile
+                   RunNativeCodeAnalysisInputs = 
+                   RuntimeIdentifiers = win;win-x86;win-x64
+                   SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+                   SDK35ToolsPath = 
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\
+                   SDKDisplayName = Windows 10
+                   SDKExtensionDirectoryRoot = C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10;C:\Program Files (x86)\Windows Kits\10
+                   SDKIdentifier = Windows
+                   SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+                   SDKReferenceDirectoryRoot = C:\Users\sem\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+                   SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+                   SDKVersion = 10.0
+                   SESSIONNAME = Console
+                   SGenFilesOutputGroupDependsOn = 
+                   SGenShouldGenerateSerializer = true
+                   SGenUseKeep = false
+                   SGenUseProxyTypes = true
+                   ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+                   ShouldUnsetParentConfigurationAndPlatform = true
+                   SkipCopyBuildProduct = true
+                   SkipCopyUnchangedFiles = true
+                   SolutionDir = C:\git\myLabs\
+                   SolutionExt = .sln
+                   SolutionFileName = labs.sln
+                   SolutionName = labs
+                   SolutionPath = C:\git\myLabs\labs.sln
+                   SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+                   SourcePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\mfc;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\mfcm;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\atl;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\crt\src;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\src;;C:\Program Files (x86)\Windows Kits\10\Source\10.0.16299.0\ucrt;;;
+                   SQLDebugging = false
+                   SystemDrive = C:
+                   SystemRoot = C:\WINDOWS
+                   TargetCulture = *
+                   TargetDeployManifestFileName = labs.application
+                   TargetDir = C:\git\myLabs\Debug\
+                   TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+                   TargetedRuntimeVersion = v4.0.30319
+                   TargetedSDKArchitecture = x86
+                   TargetedSDKConfiguration = Debug
+                   TargetExt = .exe
+                   TargetFileName = lab_1.exe
+                   TargetFrameworkAsMSBuildRuntime = CLR4
+                   TargetFrameworkIdentifier = .NETFramework
+                   TargetFrameworkMoniker = .NETFramework,Version=v4.0
+                   TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\sem\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp
+                   TargetFrameworkMonikerDisplayName = .NET Framework 4
+                   TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\
+                   TargetFrameworkVersion = v4.0
+                   TargetName = lab_1
+                   TargetPath = C:\git\myLabs\Debug\lab_1.exe
+                   TargetPlatformDisplayName = Windows 10.0.16299.0
+                   TargetPlatformIdentifier = Windows
+                   TargetPlatformMinVersion = 
+                   TargetPlatformMoniker = Windows,Version=10.0.16299.0
+                   TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+                   TargetPlatformSdkPath = 
+                   TargetPlatformVersion = 10.0.16299.0
+                   TargetPlatformWinMDLocation = C:\Program Files (x86)\Windows Kits\10\References
+                   TargetRuntime = Managed
+                   TargetUniversalCRTVersion = 10.0.16299.0
+                   TaskKeyToken = 31bf3856ad364e35
+                   TaskVersion = 4.0.0.0
+                   TEMP = C:\Users\sem\AppData\Local\Temp
+                   TLogLocation = Debug\lab_1.tlog\
+                   TMP = C:\Users\sem\AppData\Local\Temp
+                   ToolsetPropsFound = true
+                   ToolsetTargetsFound = true
+                   TrackFileAccess = true
+                   UCRTContentRoot = C:\Program Files (x86)\Windows Kits\10\
+                   UM_IncludePath = C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um
+                   UniversalCRT_IncludePath = C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;
+                   UniversalCRT_LibraryPath_arm = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\arm;
+                   UniversalCRT_LibraryPath_arm64 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\arm64;
+                   UniversalCRT_LibraryPath_x64 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x64;
+                   UniversalCRT_LibraryPath_x86 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86;
+                   UniversalCRT_PropsPath = C:\Program Files (x86)\Windows Kits\10\\DesignTime\CommonConfiguration\Neutral\ucrt.props
+                   UniversalCRT_SourcePath = C:\Program Files (x86)\Windows Kits\10\Source\10.0.16299.0\ucrt;
+                   UniversalCRTSdkDir = C:\Program Files (x86)\Windows Kits\10\
+                   UniversalCRTSdkDir_10 = C:\Program Files (x86)\Windows Kits\10\
+                   UnmanagedRegistrationDependsOn = 
+                   UnmanagedUnregistrationDependsOn = 
+                   UpgradeSubsetToProfile = true
+                   UseCommonOutputDirectory = false
+                   UseDebugLibraries = true
+                   UseDotNetNativeToolchain = 
+                   UseLegacyManagedDebugger = true
+                   UseOfATL = false
+                   UseOfMFC = false
+                   USERDOMAIN = SEM-PC
+                   USERDOMAIN_ROAMINGPROFILE = SEM-PC
+                   USERNAME = sem
+                   USERPROFILE = C:\Users\sem
+                   UserRootDir = C:\Users\sem\AppData\Local\Microsoft\MSBuild\v4.0
+                   UseSourcePath = true
+                   ValidateRuntimeIdentifierCompatibility = false
+                   VC_ATLMFC_IncludePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include;
+                   VC_ATLMFC_SourcePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\mfc;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\mfcm;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\atl;
+                   VC_CRT_SourcePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\crt\src;
+                   VC_ExecutablePath_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\arm;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86
+                   VC_ExecutablePath_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\arm64;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86
+                   VC_ExecutablePath_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86
+                   VC_ExecutablePath_x64_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX64\arm
+                   VC_ExecutablePath_x64_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX64\arm64
+                   VC_ExecutablePath_x64_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64
+                   VC_ExecutablePath_x64_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX64\x86
+                   VC_ExecutablePath_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86
+                   VC_ExecutablePath_x86_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\arm
+                   VC_ExecutablePath_x86_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\arm64
+                   VC_ExecutablePath_x86_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64
+                   VC_ExecutablePath_x86_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86
+                   VC_IFCPath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\ifc\x86
+                   VC_IncludePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\include
+                   VC_LibraryPath_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\ARM;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\ARM;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\arm;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib
+                   VC_LibraryPath_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM64;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\ARM64;;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\arm64;;
+                   VC_LibraryPath_ATL_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\ARM;
+                   VC_LibraryPath_ATL_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\ARM64;
+                   VC_LibraryPath_ATL_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x64;
+                   VC_LibraryPath_ATL_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;
+                   VC_LibraryPath_VC_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM;
+                   VC_LibraryPath_VC_ARM_Desktop = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM
+                   VC_LibraryPath_VC_ARM_OneCore = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\onecore\ARM
+                   VC_LibraryPath_VC_ARM_Store = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM\store
+                   VC_LibraryPath_VC_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM64;
+                   VC_LibraryPath_VC_ARM64_Desktop = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM64
+                   VC_LibraryPath_VC_ARM64_OneCore = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\onecore\ARM64
+                   VC_LibraryPath_VC_ARM64_Store = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM64\store
+                   VC_LibraryPath_VC_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x64;
+                   VC_LibraryPath_VC_x64_Desktop = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x64
+                   VC_LibraryPath_VC_x64_OneCore = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\onecore\x64
+                   VC_LibraryPath_VC_x64_Store = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x64\store
+                   VC_LibraryPath_VC_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;
+                   VC_LibraryPath_VC_x86_Desktop = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86
+                   VC_LibraryPath_VC_x86_OneCore = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\onecore\x86
+                   VC_LibraryPath_VC_x86_Store = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86\store
+                   VC_LibraryPath_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x64;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x64;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x64;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x64;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib
+                   VC_LibraryPath_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib
+                   VC_PGO_RunTime_Dir = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\Hostx86\x86
+                   VC_ReferencesPath_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\ARM;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM
+                   VC_ReferencesPath_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\ARM64;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM64
+                   VC_ReferencesPath_ATL_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\ARM;
+                   VC_ReferencesPath_ATL_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\ARM64;
+                   VC_ReferencesPath_ATL_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x64;
+                   VC_ReferencesPath_ATL_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;
+                   VC_ReferencesPath_VC_ARM = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM
+                   VC_ReferencesPath_VC_ARM64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\ARM64
+                   VC_ReferencesPath_VC_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x64
+                   VC_ReferencesPath_VC_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86
+                   VC_ReferencesPath_x64 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x64;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x64
+                   VC_ReferencesPath_x86 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86
+                   VC_SourcePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\mfc;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\mfcm;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\src\atl;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\crt\src;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\src;;C:\Program Files (x86)\Windows Kits\10\Source\10.0.16299.0\ucrt;;
+                   VC_VC_IncludePath = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include;
+                   VC_VS_IncludePath = C:\Program Files\visual studio 2017\VC\Auxiliary\VS\include;
+                   VC_VS_LibraryPath_VC_VS_ARM = C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\ARM;
+                   VC_VS_LibraryPath_VC_VS_x64 = C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x64;
+                   VC_VS_LibraryPath_VC_VS_x86 = C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x86;
+                   VC_VS_SourcePath = C:\Program Files\visual studio 2017\VC\Auxiliary\VS\src;
+                   VCIDEInstallDir = C:\Program Files\visual studio 2017\Common7\IDE\VC\
+                   VCIDEInstallDir_150 = C:\Program Files\visual studio 2017\Common7\IDE\VC\
+                   VCInstallDir = C:\Program Files\visual studio 2017\VC\
+                   VCInstallDir_150 = C:\Program Files\visual studio 2017\VC\
+                   VCLibPackagePath = C:\Users\sem\AppData\Local\vcpkg\vcpkg.user
+                   VCTargetsPath = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+                   VCTargetsPath14 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+                   VCTargetsPath15 = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\
+                   VCTargetsPathActual = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\
+                   VCTargetsPathEffective = C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\
+                   VCToolArchitecture = Native32Bit
+                   VCToolsInstallDir = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\
+                   VCToolsInstallDir_150 = C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\
+                   VCToolsVersion = 14.11.25503
+                   Version = 1.0.0.0
+                   VisualStudioDir = C:\Users\sem\Documents\Visual Studio 2017
+                   VisualStudioEdition = Microsoft Visual Studio Community 2017
+                   VisualStudioVersion = 15.0
+                   VLC_PLUGIN_PATH = C:\Users\sem\AppData\Local\AzTorrent\plugins
+                   VS_ExecutablePath = C:\Program Files\visual studio 2017\Common7\tools;C:\Program Files\visual studio 2017\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;
+                   VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+                   VSAPPIDDIR = C:\Program Files\visual studio 2017\Common7\IDE\
+                   VSAPPIDNAME = devenv.exe
+                   VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs />
+                   VSInstallDir = C:\Program Files\visual studio 2017\
+                   VSInstallDir_150 = C:\Program Files\visual studio 2017\
+                   VsInstallRoot = C:\Program Files\visual studio 2017
+                   VSLANG = 1033
+                   VSSKUEDITION = Community
+                   WDKBinRoot = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0
+                   WDKBinRoot_x64 = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x64
+                   WDKBinRoot_x86 = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86
+                   WebBrowserDebuggerDebuggerType = Auto
+                   WebReference_EnableLegacyEventingModel = false
+                   WebReference_EnableProperties = true
+                   WebReference_EnableSQLTypes = true
+                   WebServiceDebuggerDebuggerType = Auto
+                   WebServiceDebuggerSQLDebugging = False
+                   WholeProgramOptimization = false
+                   WholeProgramOptimizationAvailabilityInstrument = true
+                   WholeProgramOptimizationAvailabilityOptimize = true
+                   WholeProgramOptimizationAvailabilityTrue = true
+                   WholeProgramOptimizationAvailabilityUpdate = true
+                   windir = C:\WINDOWS
+                   WindowsAppContainer = false
+                   WindowsSDK_ExecutablePath = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools
+                   WindowsSDK_ExecutablePath_arm = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\arm;
+                   WindowsSDK_ExecutablePath_arm64 = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\arm64;
+                   WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64
+                   WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools
+                   WindowsSDK_HasVersionedContent = true
+                   WindowsSDK_IncludePath = C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um
+                   WindowsSDK_LibraryPath = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um
+                   WindowsSDK_LibraryPath_arm = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\arm;lib\um\arm;
+                   WindowsSDK_LibraryPath_arm64 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\arm64;lib\um\arm64;
+                   WindowsSDK_LibraryPath_x64 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x64;lib\um\x64;
+                   WindowsSDK_LibraryPath_x86 = C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86;lib\um\x86;
+                   WindowsSDK_MetadataFoundationPath = C:\Program Files (x86)\Windows Kits\10\References\10.0.16299.0\windows.foundation.foundationcontract\3.0.0.0
+                   WindowsSDK_MetadataPath = C:\Program Files (x86)\Windows Kits\10\References
+                   WindowsSDK_MetadataPathVersioned = C:\Program Files (x86)\Windows Kits\10\References\10.0.16299.0
+                   WindowsSDK_PlatformPath = C:\Program Files (x86)\Windows Kits\10\Platforms\UAP;
+                   WindowsSDK_SupportedAPIs_arm = C:\Program Files (x86)\Windows Kits\10\\App Certification Kit\SupportedAPIs-arm.xml
+                   WindowsSDK_SupportedAPIs_x64 = C:\Program Files (x86)\Windows Kits\10\\App Certification Kit\SupportedAPIs-x64.xml
+                   WindowsSDK_SupportedAPIs_x86 = C:\Program Files (x86)\Windows Kits\10\\App Certification Kit\SupportedAPIs-x86.xml
+                   WindowsSDK_UnionMetadataPath = C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.16299.0
+                   WindowsSDK80Path = 
+                   WindowsSdkDir = C:\Program Files (x86)\Windows Kits\10\
+                   WindowsSdkDir_10 = C:\Program Files (x86)\Windows Kits\10\
+                   WindowsSdkDir_81 = 
+                   WindowsSdkDir_81A = 
+                   WindowsSDKToolArchitecture = Native32Bit
+                   WindowsTargetPlatformVersion = 10.0.16299.0
+                   WinMDAssembly = false
+                   WinRT_IncludePath = C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt
+                   WMSJSProject = WJProject
+                   WMSJSProjectDirectory = JavaScript
+                   XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   XamlBuildTaskLocation = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\amd64
+                   XamlBuildTaskPath = C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\amd64
+                   XamlDebuggingInformation = true
+                   XamlGenCodeFileNames = labs.vcxproj.XamlGeneratedCodeFileListAbsolute.txt
+                   XamlGenMarkupFileNames = labs.vcxproj.XamlGeneratedXamlFileListAbsolute.txt
+                   XamlPass2FlagFile = labs.vcxproj.XamlPass2Flag.txt
+                   XamlRequiresCompilationPass2 = false
+                   XamlTemporaryAssemblyName = labs
+                   YieldDuringToolExecution = true
+
+11:01:07.975     1>Building with tools version "15.0".
+11:01:07.975     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_PrepareForRebuild" depends on it):
+                   Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'labs.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.
+                   Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'labs.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Task Parameter:Text=Configuration=Debug (TaskId:2)
+                     Task Parameter:Importance=Low (TaskId:2)
+                     Configuration=Debug (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Task Parameter:Text=Platform=Win32 (TaskId:3)
+                     Task Parameter:Importance=Low (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\git\myLabs\Debug\' != '' and !HasTrailingSlash('C:\git\myLabs\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+11:01:07.978     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "labs.vcxproj".: (TargetId:2)
+11:01:07.978     1>Target "_PrepareForRebuild: (TargetId:3)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Rebuild" depends on it):
+                   Set Property: BuildType=Rebuild
+                   Set Property: _BuildActionType=Rebuild
+                   Removed Item(s): 
+                       CustomBuildStep=
+                           lab_1
+                                   Message=Performing Custom Build Step
+11:01:07.978     1>Done building target "_PrepareForRebuild" in project "labs.vcxproj".: (TargetId:3)
+11:01:07.978     1>Target "BeforeRebuild: (TargetId:4)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Rebuild" depends on it):
+11:01:07.978     1>Done building target "BeforeRebuild" in project "labs.vcxproj".: (TargetId:4)
+11:01:07.978     1>Target "_PrepareForClean: (TargetId:5)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Clean" depends on it):
+                   Set Property: _BuildActionType=Clean
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:4)
+                     Task Parameter:Files=Debug\lab_1.tlog\lab_1.lastbuildstate (TaskId:4)
+                     Deleting file "Debug\lab_1.tlog\lab_1.lastbuildstate". (TaskId:4)
+                   Done executing task "Delete". (TaskId:4)
+11:01:07.978     1>Done building target "_PrepareForClean" in project "labs.vcxproj".: (TargetId:5)
+11:01:07.978     1>Target "BeforeClean: (TargetId:6)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Clean" depends on it):
+11:01:07.978     1>Done building target "BeforeClean" in project "labs.vcxproj".: (TargetId:6)
+                   Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                                       ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                                      Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'exe' != 'library') or
+                                       ('' == '')) and
+                                      Exists('obj\labs.vcxproj.UnmanagedRegistration.cache')).
+11:01:07.979     1>Target "CoreClean: (TargetId:7)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:5)
+                     Task Parameter:
+                         Files=
+                             Debug\\TempCA\lab_1.pdb
+                             Debug\\TempCA\lab_1.exe (TaskId:5)
+                     Task Parameter:TreatErrorsAsWarnings=True (TaskId:5)
+                     File "Debug\\TempCA\lab_1.pdb" doesn't exist. Skipping. (TaskId:5)
+                     File "Debug\\TempCA\lab_1.exe" doesn't exist. Skipping. (TaskId:5)
+                   Done executing task "Delete". (TaskId:5)
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:6)
+                     Task Parameter:File=Debug\labs.vcxproj.FileListAbsolute.txt (TaskId:6)
+                   Done executing task "ReadLinesFromFile". (TaskId:6)
+                   Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "FindUnderPath" (TaskId:7)
+                     Task Parameter:Path=C:\git\myLabs\Debug\ (TaskId:7)
+                     Comparison path is "C:\git\myLabs\Debug\". (TaskId:7)
+                   Done executing task "FindUnderPath". (TaskId:7)
+                   Task "FindUnderPath" (TaskId:8)
+                     Task Parameter:Path=Debug\ (TaskId:8)
+                     Comparison path is "Debug\". (TaskId:8)
+                   Done executing task "FindUnderPath". (TaskId:8)
+                   Task "Delete" (TaskId:9)
+                     Task Parameter:TreatErrorsAsWarnings=True (TaskId:9)
+                   Done executing task "Delete". (TaskId:9)
+                   Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "RemoveDuplicates" (TaskId:10)
+                   Done executing task "RemoveDuplicates". (TaskId:10)
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:11)
+                     Task Parameter:Directories=Debug\ (TaskId:11)
+                   Done executing task "MakeDir". (TaskId:11)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:12)
+                     Task Parameter:File=Debug\labs.vcxproj.FileListAbsolute.txt (TaskId:12)
+                     Task Parameter:Overwrite=True (TaskId:12)
+                   Done executing task "WriteLinesToFile". (TaskId:12)
+11:01:07.980     1>Done building target "CoreClean" in project "labs.vcxproj".: (TargetId:7)
+                   Target "_CleanMdbFiles" skipped, due to false condition; (Exists('$(TargetPath).mdb')) was evaluated as (Exists('C:\git\myLabs\Debug\lab_1.exe.mdb')).
+                   Target "XamarinPCLClean" skipped, due to false condition; ( $(TargetFrameworkProfile) != '' And $(TargetFrameworkIdentifier) == '.NETPortable' ) was evaluated as (  != '' And .NETFramework == '.NETPortable' ).
+11:01:07.980     1>Target "AssignProjectConfiguration: (TargetId:8)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "PrepareProjectReferences" depends on it):
+                   Set Property: ShouldUnsetParentConfigurationAndPlatform=true
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:13)
+                     Task Parameter:CurrentProject=C:\git\myLabs\labs\labs.vcxproj (TaskId:13)
+                     Task Parameter:CurrentProjectConfiguration=Debug (TaskId:13)
+                     Task Parameter:CurrentProjectPlatform=Win32 (TaskId:13)
+                     Task Parameter:OutputType=exe (TaskId:13)
+                     Task Parameter:ResolveConfigurationPlatformUsingMappings=False (TaskId:13)
+                     Task Parameter:SolutionConfigurationContents=<SolutionConfiguration>
+                     <ProjectConfiguration Project="{0c8b8759-b0f0-4dba-af64-ecc179d61a94}" AbsolutePath="C:\git\myLabs\labs\labs.vcxproj">Debug|Win32</ProjectConfiguration>
+                     <ProjectConfiguration Project="{034781d6-e85b-4c7c-99b7-dfb31008b14c}" AbsolutePath="C:\git\myLabs\lab_2\lab_2.vcxproj">Debug|Win32</ProjectConfiguration>
+                     <ProjectConfiguration Project="{25b09c65-ce89-4242-9133-ed8f40832a15}" AbsolutePath="C:\git\myLabs\lab_3\lab_3.vcxproj">Debug|Win32</ProjectConfiguration>
+                     <ProjectConfiguration Project="{a302bd2b-85be-46d8-b42b-784415d4a58a}" AbsolutePath="C:\git\myLabs\lab_4\lab_4.vcxproj">Debug|Win32</ProjectConfiguration>
+                     <ProjectConfiguration Project="{523b7d6a-4676-4398-a9ef-256c8186c787}" AbsolutePath="C:\git\myLabs\lab_5\lab_5.vcxproj">Debug|Win32</ProjectConfiguration>
+                     <ProjectConfiguration Project="{6e674d64-0b43-4173-b75c-7b01d011d9d9}" AbsolutePath="C:\git\myLabs\lab_6\lab_6.vcxproj">Debug|Win32</ProjectConfiguration>
+                     </SolutionConfiguration> (TaskId:13)
+                     Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:13)
+                     Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:13)
+                   Done executing task "AssignProjectConfiguration". (TaskId:13)
+11:01:07.982     1>Done building target "AssignProjectConfiguration" in project "labs.vcxproj".: (TargetId:8)
+11:01:07.982     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:9)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "PrepareProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+11:01:07.982     1>Done building target "_SplitProjectReferencesByFileExistence" in project "labs.vcxproj".: (TargetId:9)
+11:01:07.982     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:10)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "PrepareProjectReferences" depends on it):
+                   Set Property: ReferringTargetFrameworkForProjectReferences=.NETFramework,Version=v4.0
+                   Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MSBuild" (TaskId:14)
+                     Task Parameter:Targets=GetTargetFrameworkProperties (TaskId:14)
+                     Task Parameter:BuildInParallel=True (TaskId:14)
+                     Task Parameter:Properties=ReferringTargetFramework=.NETFramework,Version=v4.0 (TaskId:14)
+                     Task Parameter:RemoveProperties=;TargetFramework;RuntimeIdentifier (TaskId:14)
+                     Output Property: _ProjectReferenceTargetFrameworkProperties= (TaskId:14)
+                   Done executing task "MSBuild". (TaskId:14)
+                   Set Property: _ProjectReferenceTargetFrameworkProperties=
+11:01:07.983     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "labs.vcxproj".: (TargetId:10)
+11:01:07.983     1>Target "PrepareProjectReferences: (TargetId:11)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "CleanReferencedProjects" depends on it):
+11:01:07.983     1>Done building target "PrepareProjectReferences" in project "labs.vcxproj".: (TargetId:11)
+11:01:07.983     1>Target "CleanReferencedProjects: (TargetId:12)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Clean" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+11:01:07.983     1>Done building target "CleanReferencedProjects" in project "labs.vcxproj".: (TargetId:12)
+11:01:07.983     1>Target "CleanPublishFolder: (TargetId:13)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Clean" depends on it):
+                   Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\git\myLabs\Debug\app.publish\'=='C:\git\myLabs\Debug\app.publish\' and Exists('C:\git\myLabs\Debug\app.publish\')).
+11:01:07.983     1>Done building target "CleanPublishFolder" in project "labs.vcxproj".: (TargetId:13)
+11:01:07.983     1>Target "AfterClean: (TargetId:14)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Clean" depends on it):
+11:01:07.983     1>Done building target "AfterClean" in project "labs.vcxproj".: (TargetId:14)
+                   Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+11:01:07.983     1>Target "BeforeCppClean: (TargetId:15)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "CppClean" depends on it):
+11:01:07.983     1>Done building target "BeforeCppClean" in project "labs.vcxproj".: (TargetId:15)
+11:01:07.983     1>Target "CoreCppClean: (TargetId:16)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "CppClean" depends on it):
+                   Task "MakeDir" (TaskId:15)
+                     Task Parameter:Directories=Debug\ (TaskId:15)
+                   Done executing task "MakeDir". (TaskId:15)
+                   Using "CppClean" task from assembly "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
+                   Task "CppClean" (TaskId:16)
+                     Task Parameter:FoldersToClean=Debug\;Debug\lab_1.tlog\ (TaskId:16)
+                     Task Parameter:FilesExcludedFromClean=lab_1.Build.CppClean.log (TaskId:16)
+                     Task Parameter:DoDelete=True (TaskId:16)
+                     Task Parameter:FilePatternsToDeleteOnClean=*.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;C:\git\myLabs\Debug\lab_1.exe.manifest;C:\git\myLabs\Debug\lab_1.tlb;C:\git\myLabs\Debug\lab_1.pdb;C:\git\myLabs\Debug\lab_1.exe;C:\git\myLabs\Debug\lab_1.bsc;C:\git\myLabs\Debug\lab_1.ilk;C:\git\myLabs\Debug\lab_1.exe.intermediate.manifest;C:\git\myLabs\Debug\lab_1.exe.CodeAnalysisLog.xml;C:\git\myLabs\Debug\lab_1.exe.lastcodeanalysissucceeded (TaskId:16)
+                     Output Item(s): 
+                         DeletedFilesByCppCleanTask=
+                             c:\git\mylabs\labs\debug\vc140.pdb
+                             c:\git\mylabs\labs\debug\vc140.idb
+                             c:\git\mylabs\labs\debug\lab_1.tlog\cl.command.1.tlog
+                             c:\git\mylabs\labs\debug\lab_1.tlog\cl.read.1.tlog
+                             c:\git\mylabs\labs\debug\lab_1.tlog\cl.write.1.tlog (TaskId:16)
+                   Done executing task "CppClean". (TaskId:16)
+                   Task "WriteLinesToFile" (TaskId:17)
+                     Task Parameter:File=Debug\lab_1.Build.CppClean.log (TaskId:17)
+                     Task Parameter:
+                         Lines=
+                             c:\git\mylabs\labs\debug\vc140.pdb
+                             c:\git\mylabs\labs\debug\vc140.idb
+                             c:\git\mylabs\labs\debug\lab_1.tlog\cl.command.1.tlog
+                             c:\git\mylabs\labs\debug\lab_1.tlog\cl.read.1.tlog
+                             c:\git\mylabs\labs\debug\lab_1.tlog\cl.write.1.tlog (TaskId:17)
+                     Task Parameter:Overwrite=True (TaskId:17)
+                   Done executing task "WriteLinesToFile". (TaskId:17)
+11:01:08.012     1>Done building target "CoreCppClean" in project "labs.vcxproj".: (TargetId:16)
+11:01:08.012     1>Target "AfterCppClean: (TargetId:17)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "CppClean" depends on it):
+11:01:08.012     1>Done building target "AfterCppClean" in project "labs.vcxproj".: (TargetId:17)
+11:01:08.012     1>Target "PGInstrumentedClean: (TargetId:18)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "CppClean" depends on it):
+                   Task "Delete" (TaskId:18)
+                   Done executing task "Delete". (TaskId:18)
+11:01:08.013     1>Done building target "PGInstrumentedClean" in project "labs.vcxproj".: (TargetId:18)
+11:01:08.013     1>Target "CppClean: (TargetId:19)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Clean" depends on it):
+11:01:08.013     1>Done building target "CppClean" in project "labs.vcxproj".: (TargetId:19)
+11:01:08.013     1>Target "Clean: (TargetId:20)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Rebuild" depends on it):
+11:01:08.013     1>Done building target "Clean" in project "labs.vcxproj".: (TargetId:20)
+11:01:08.013     1>Target "_PrepareForBuild: (TargetId:21)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Build" depends on it):
+                   Set Property: _BuildActionType=Build
+                   Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+11:01:08.013     1>Done building target "_PrepareForBuild" in project "labs.vcxproj".: (TargetId:21)
+11:01:08.013     1>Target "_PrepareForReferenceResolution: (TargetId:22)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveReferences" depends on it):
+                   Set Property: TargetFrameworkMoniker=
+                   Set Property: _FindDependencies=false
+                   Set Property: AdditionalExplicitAssemblyReferences=
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+11:01:08.013     1>Done building target "_PrepareForReferenceResolution" in project "labs.vcxproj".: (TargetId:22)
+                   Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('lab_1.cpp'!='' and 'false'=='true' and '' != 'false').
+11:01:08.013     1>Target "BeforeResolveReferences: (TargetId:23)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveReferences" depends on it):
+11:01:08.013     1>Done building target "BeforeResolveReferences" in project "labs.vcxproj".: (TargetId:23)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "PrepareProjectReferences" skipped. Previously built successfully.
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+11:01:08.013     1>Target "ResolveProjectReferences: (TargetId:24)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+11:01:08.014     1>Done building target "ResolveProjectReferences" in project "labs.vcxproj".: (TargetId:24)
+                   Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+                   Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+11:01:08.014     1>Target "GetFrameworkPaths: (TargetId:25)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Added Item(s): _TargetFramework40DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+                   Added Item(s): _TargetFramework35DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.5
+                   Added Item(s): _TargetFramework30DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.0
+                   Added Item(s): _TargetFramework20DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+                   Added Item(s): _TargetedFrameworkDirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+                   Added Item(s): _CombinedTargetFrameworkDirectoriesItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+                   Set Property: TargetFrameworkDirectory=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+                   Set Property: TargetFrameworkSDKDirectory=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+                   Added Item(s): _TargetFrameworkSDKDirectoryItem=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+11:01:08.015     1>Done building target "GetFrameworkPaths" in project "labs.vcxproj".: (TargetId:25)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+11:01:08.015     1>Target "GetReferenceAssemblyPaths: (TargetId:26)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Set Property: TargetFrameworkDirectory=
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+                   Set Property: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;
+                   Set Property: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;;C:\Program Files (x86)\Windows Kits\10\References
+                   Set Property: RemoveAssemblyFoldersIfNoTargetFramework=true
+11:01:08.015     1>Done building target "GetReferenceAssemblyPaths" in project "labs.vcxproj".: (TargetId:26)
+11:01:08.015     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:27)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "PrepareForBuild" depends on it):
+                   Using "SetEnv" task from assembly "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
+                   Task "SetEnv" (TaskId:19)
+                     Task Parameter:Name=PATH (TaskId:19)
+                     Task Parameter:Value=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files\visual studio 2017\Common7\tools;C:\Program Files\visual studio 2017\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;C:\Users\sem\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;; (TaskId:19)
+                     Task Parameter:Prefix=False (TaskId:19)
+                     PATH=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files\visual studio 2017\Common7\tools;C:\Program Files\visual studio 2017\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files\visual studio 2017\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;C:\Users\sem\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\sem\AppData\Local\Microsoft\WindowsApps;; (TaskId:19)
+                     Output Property: Path=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86%3bC:\Program Files %28x86%29\Windows Kits\10\bin\10.0.16299.0\x86%3b%3bC:\Program Files %28x86%29\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools%3bC:\Program Files\visual studio 2017\Common7\tools%3bC:\Program Files\visual studio 2017\Common7\ide%3bC:\Program Files %28x86%29\HTML Help Workshop%3b%3bC:\Program Files\visual studio 2017\MSBuild\15.0\Bin%3bC:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\%3bC:\WINDOWS\SysWow64%3b%3bC:\ProgramData\Oracle\Java\javapath%3bC:\WINDOWS\system32%3bC:\WINDOWS%3bC:\WINDOWS\System32\Wbem%3bC:\WINDOWS\System32\WindowsPowerShell\v1.0\%3bC:\Program Files\Microsoft SQL Server\130\Tools\Binn\%3bC:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\%3bC:\Program Files %28x86%29\Microsoft SQL Server\120\Tools\Binn\%3bC:\Program Files\Microsoft SQL Server\120\Tools\Binn\%3bC:\Program Files\Microsoft SQL Server\120\DTS\Binn\%3bC:\Program Files %28x86%29\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\%3bC:\Program Files %28x86%29\Microsoft SQL Server\110\Tools\Binn\%3bC:\Program Files %28x86%29\Microsoft SQL Server\110\DTS\Binn\%3bC:\Program Files\PuTTY\%3bC:\Program Files\dotnet\%3bC:\Program Files\Microsoft DNX\Dnvm\%3bC:\Program Files\MATLAB\R2017a\runtime\win64%3bC:\Program Files\MATLAB\R2017a\bin%3bC:\Users\sem\AppData\Local\Microsoft\WindowsApps%3bC:\Users\sem\AppData\Local\GitHubDesktop\bin%3bC:\Program Files\Microsoft VS Code\bin%3bC:\Users\sem\AppData\Local\Microsoft\WindowsApps%3b%3b (TaskId:19)
+                   Done executing task "SetEnv". (TaskId:19)
+                   Task "SetEnv" (TaskId:20)
+                     Task Parameter:Name=LIB (TaskId:20)
+                     Task Parameter:Value=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86;lib\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86 (TaskId:20)
+                     Task Parameter:Prefix=False (TaskId:20)
+                     LIB=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib;C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86;lib\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86 (TaskId:20)
+                     Output Property: LIB=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86%3b%3bC:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86%3b%3bC:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x86%3b%3bC:\Program Files %28x86%29\Windows Kits\10\lib\10.0.16299.0\ucrt\x86%3b%3b%3bC:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib%3bC:\Program Files %28x86%29\Windows Kits\10\lib\10.0.16299.0\um\x86%3blib\um\x86%3b%3bC:\Program Files %28x86%29\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86 (TaskId:20)
+                   Done executing task "SetEnv". (TaskId:20)
+                   Task "SetEnv" (TaskId:21)
+                     Task Parameter:Name=LIBPATH (TaskId:21)
+                     Task Parameter:Value=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86; (TaskId:21)
+                     Task Parameter:Prefix=False (TaskId:21)
+                     LIBPATH=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86; (TaskId:21)
+                     Output Property: LIBPATH=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86%3b%3bC:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86%3b (TaskId:21)
+                   Done executing task "SetEnv". (TaskId:21)
+                   Task "SetEnv" (TaskId:22)
+                     Task Parameter:Name=INCLUDE (TaskId:22)
+                     Task Parameter:Value=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um; (TaskId:22)
+                     Task Parameter:Prefix=False (TaskId:22)
+                     INCLUDE=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include;;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;;C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um; (TaskId:22)
+                     Output Property: INCLUDE=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include%3b%3bC:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include%3b%3bC:\Program Files\visual studio 2017\VC\Auxiliary\VS\include%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\ucrt%3b%3b%3bC:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\include%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\um%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\shared%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\winrt%3bInclude\um%3b (TaskId:22)
+                   Done executing task "SetEnv". (TaskId:22)
+11:01:08.017     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "labs.vcxproj".: (TargetId:27)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
+11:01:08.017     1>Target "GetResolvedWinMD: (TargetId:28)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "PrepareForBuild" depends on it):
+                   Added Item(s): 
+                       Link=
+                           tmp
+                                   AcceptableNonZeroExitCodes=
+                                   AdditionalDependencies=kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;
+                                   AllowIsolation=true
+                                   CLRImageType=Default
+                                   DataExecutionPrevention=true
+                                   DelaySign=
+                                   DeleteSoon=true
+                                   Driver=NotSet
+                                   EnableUAC=true
+                                   GenerateDebugInformation=true
+                                   GenerateMapFile=false
+                                   IgnoreEmbeddedIDL=false
+                                   ImportLibrary=C:\git\myLabs\Debug\lab_1.lib
+                                   KeyFile=
+                                   LinkErrorReporting=PromptImmediately
+                                   ManifestFile=Debug\lab_1.exe.intermediate.manifest
+                                   MapExports=false
+                                   MinimalRebuildFromTracking=true
+                                   NoEntryPoint=false
+                                   OutputFile=C:\git\myLabs\Debug\lab_1.exe
+                                   PerUserRedirection=false
+                                   Profile=false
+                                   ProfileGuidedDatabase=C:\git\myLabs\Debug\lab_1.pgd
+                                   ProgramDatabaseFile=C:\git\myLabs\Debug\lab_1.pdb
+                                   RandomizedBaseAddress=true
+                                   RegisterOutput=false
+                                   SetChecksum=false
+                                   ShowProgress=NotSet
+                                   SubSystem=Console
+                                   SuppressStartupBanner=true
+                                   SwapRunFromCD=false
+                                   SwapRunFromNET=false
+                                   TargetMachine=MachineX86
+                                   TrackerLogDirectory=Debug\lab_1.tlog\
+                                   TurnOffAssemblyGeneration=false
+                                   TypeLibraryResourceID=1
+                                   UACExecutionLevel=AsInvoker
+                                   UACUIAccess=false
+                   Removed Item(s): 
+                       Link=
+                           tmp
+                                   AcceptableNonZeroExitCodes=
+                                   AdditionalDependencies=kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;
+                                   AllowIsolation=true
+                                   CLRImageType=Default
+                                   DataExecutionPrevention=true
+                                   DelaySign=
+                                   DeleteSoon=true
+                                   Driver=NotSet
+                                   EnableUAC=true
+                                   GenerateDebugInformation=true
+                                   GenerateMapFile=false
+                                   IgnoreEmbeddedIDL=false
+                                   ImportLibrary=C:\git\myLabs\Debug\lab_1.lib
+                                   KeyFile=
+                                   LinkErrorReporting=PromptImmediately
+                                   ManifestFile=Debug\lab_1.exe.intermediate.manifest
+                                   MapExports=false
+                                   MinimalRebuildFromTracking=true
+                                   NoEntryPoint=false
+                                   OutputFile=C:\git\myLabs\Debug\lab_1.exe
+                                   PerUserRedirection=false
+                                   Profile=false
+                                   ProfileGuidedDatabase=C:\git\myLabs\Debug\lab_1.pgd
+                                   ProgramDatabaseFile=C:\git\myLabs\Debug\lab_1.pdb
+                                   RandomizedBaseAddress=true
+                                   RegisterOutput=false
+                                   SetChecksum=false
+                                   ShowProgress=NotSet
+                                   SubSystem=Console
+                                   SuppressStartupBanner=true
+                                   SwapRunFromCD=false
+                                   SwapRunFromNET=false
+                                   TargetMachine=MachineX86
+                                   TrackerLogDirectory=Debug\lab_1.tlog\
+                                   TurnOffAssemblyGeneration=false
+                                   TypeLibraryResourceID=1
+                                   UACExecutionLevel=AsInvoker
+                                   UACUIAccess=false
+11:01:08.018     1>Done building target "GetResolvedWinMD" in project "labs.vcxproj".: (TargetId:28)
+11:01:08.018     1>Target "PlatformPrepareForBuild: (TargetId:29)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "PrepareForBuild" depends on it):
+                   Set Property: ConfigurationPlatformExists=true
+                   Set Property: _CurrentPlatformToolsetShortName=v141
+                   Task "VCMessage" skipped, due to false condition; ('$(_Error64bitToolsNotInstalled)' == 'true') was evaluated as ('' == 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v110').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v100').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110') was evaluated as (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110').
+11:01:08.018     1>Done building target "PlatformPrepareForBuild" in project "labs.vcxproj".: (TargetId:29)
+11:01:08.018     1>Target "Desktop_PlatformPrepareForBuild: (TargetId:30)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141\Toolset.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ($(MissingSDKProps) == 'true') was evaluated as ( == 'true').
+11:01:08.018     1>Done building target "Desktop_PlatformPrepareForBuild" in project "labs.vcxproj".: (TargetId:30)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+                   Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+11:01:08.018     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:31)" in file "C:\Program Files\visual studio 2017\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "PrepareForBuild" depends on it):
+                   Initializing task factory "CodeTaskFactory" from assembly "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Build.Tasks.Core.dll".
+                   Using "SetEnvironmentVariable" task from the task factory "Code Task Factory".
+                   Task "SetEnvironmentVariable" (TaskId:23)
+                     Task Parameter:EnvValue=C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include;C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um; (TaskId:23)
+                     Task Parameter:EnvKey=CAExcludePath (TaskId:23)
+                   Done executing task "SetEnvironmentVariable". (TaskId:23)
+11:01:08.022     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "labs.vcxproj".: (TargetId:31)
+11:01:08.022     1>Target "PrepareForBuild: (TargetId:32)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Set Property: TargetDir=C:\git\myLabs\Debug\
+                   Set Property: LocalDebuggerCommand=C:\git\myLabs\Debug\lab_1.exe
+                   Set Property: BuildProjectReferences=false
+                   Set Property: ConfigurationPlatformExists=true
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:24)
+                     Task Parameter:Directories=Debug\ (TaskId:24)
+                   Done executing task "MakeDir". (TaskId:24)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) was evaluated as (''!='true' and 'C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\'=='' and '' != 'true' and 'v141'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as (''!='true' and 'C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as (''!='true' and 'C:\Program Files (x86)\Windows Kits\10\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''!='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''!='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') was evaluated as ('' != 'true' and '' == 'true').
+                   Set Property: _IntDirFullpath=C:\git\myLabs\labs\Debug\
+                   Set Property: _OutDirFullpath=C:\git\myLabs\Debug\
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) was evaluated as (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+                   Task "MakeDir" (TaskId:25)
+                     Task Parameter:
+                         Directories=
+                             Debug\
+                             C:\git\myLabs\Debug\
+                             Debug\lab_1.tlog\ (TaskId:25)
+                   Done executing task "MakeDir". (TaskId:25)
+11:01:08.030     1>Done building target "PrepareForBuild" in project "labs.vcxproj".: (TargetId:32)
+                   Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+                   Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('lab_1.cpp'!='' and 'false'=='true' and '' != 'false').
+11:01:08.030     1>Target "GetInstalledSDKLocations: (TargetId:33)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '' and '$(SupportWindows81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindows81)' != '' and '$(TargetPlatformVersionWindows81)' != '') was evaluated as ('' != '' and '' == 'true' and '' != '' and '' != '').
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '' and '$(SupportWindowsPhone81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindowsPhone81)' != '' and '$(TargetPlatformVersionWindowsPhone81)' != '') was evaluated as ('' != '' and '' == 'true' and '' != '' and '' != '').
+11:01:08.030     1>Done building target "GetInstalledSDKLocations" in project "labs.vcxproj".: (TargetId:33)
+11:01:08.030     1>Target "ResolveSDKReferences: (TargetId:34)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+11:01:08.030     1>Done building target "ResolveSDKReferences" in project "labs.vcxproj".: (TargetId:34)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+11:01:08.030     1>Target "ExpandSDKReferences: (TargetId:35)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+11:01:08.030     1>Done building target "ExpandSDKReferences" in project "labs.vcxproj".: (TargetId:35)
+                   Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
+                   Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
+11:01:08.030     1>Target "_HandlePackageFileConflicts: (TargetId:36)" in file "C:\Program Files\visual studio 2017\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Using "ResolvePackageFileConflicts" task from assembly "C:\Program Files\visual studio 2017\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll".
+                   Task "ResolvePackageFileConflicts" (TaskId:26)
+                     Output Item(s): _ReferencesWithoutConflicts= (TaskId:26)
+                     Output Item(s): _ReferenceCopyLocalPathsWithoutConflicts= (TaskId:26)
+                   Done executing task "ResolvePackageFileConflicts". (TaskId:26)
+11:01:08.032     1>Done building target "_HandlePackageFileConflicts" in project "labs.vcxproj".: (TargetId:36)
+11:01:08.032     1>Target "ResolveAssemblyReferences: (TargetId:37)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveReferences" depends on it):
+                   Added Item(s): 
+                       _ReferenceInstalledAssemblyDirectory=
+                           C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                           C:\Program Files (x86)\Windows Kits\10\References
+                   Set Property: ResolveAssemblyReferencesStateFile=Debug\labs.vcxprojResolveAssemblyReference.cache
+                   Set Property: ResolveAssemblyReferencesSilent=false
+                   Set Property: ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch=Warning
+                   Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+11:01:08.032     1>Done building target "ResolveAssemblyReferences" in project "labs.vcxproj".: (TargetId:37)
+                   Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
+                   Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('Debug\labs.vcxproj.lab_1.exe.config')).
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+11:01:08.032     1>Target "AfterResolveReferences: (TargetId:38)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ResolveReferences" depends on it):
+11:01:08.032     1>Done building target "AfterResolveReferences" in project "labs.vcxproj".: (TargetId:38)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+11:01:08.032     1>Target "ResolveReferences: (TargetId:39)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Build" depends on it):
+11:01:08.032     1>Done building target "ResolveReferences" in project "labs.vcxproj".: (TargetId:39)
+                   Target "ResolveAdditionalReferenceCopyLocalPathsForIIS" skipped, due to false condition; ('$(BuildForIIS)' == 'true') was evaluated as ('' == 'true').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+11:01:08.032     1>Target "InitializeBuildStatus: (TargetId:40)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:27)
+                     Task Parameter:File=Debug\lab_1.tlog\lab_1.lastbuildstate (TaskId:27)
+                   Done executing task "ReadLinesFromFile". (TaskId:27)
+                   Set Property: ProjectStateLine=#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.16299.0
+                   Set Property: StateBuildType=Build
+                   Task "WriteLinesToFile" (TaskId:28)
+                     Task Parameter:Overwrite=True (TaskId:28)
+                     Task Parameter:File=Debug\lab_1.tlog\lab_1.lastbuildstate (TaskId:28)
+                     Task Parameter:
+                         Lines=
+                             #TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.16299.0
+                             Debug|Win32|C:\git\myLabs\| (TaskId:28)
+                   Done executing task "WriteLinesToFile". (TaskId:28)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:29)
+                     Task Parameter:AlwaysCreate=True (TaskId:29)
+                     Task Parameter:Files=Debug\lab_1.tlog\unsuccessfulbuild (TaskId:29)
+                     Touching "Debug\lab_1.tlog\unsuccessfulbuild". (TaskId:29)
+                   Done executing task "Touch". (TaskId:29)
+11:01:08.043     1>Done building target "InitializeBuildStatus" in project "labs.vcxproj".: (TargetId:40)
+                   Target "PrepareProjectReferences" skipped. Previously built successfully.
+11:01:08.043     1>Target "BuildGenerateSourcesTraverse: (TargetId:41)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+11:01:08.044     1>Done building target "BuildGenerateSourcesTraverse" in project "labs.vcxproj".: (TargetId:41)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+11:01:08.044     1>Target "BeforeBuildGenerateSources: (TargetId:42)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+11:01:08.044     1>Done building target "BeforeBuildGenerateSources" in project "labs.vcxproj".: (TargetId:42)
+11:01:08.044     1>Target "PreBuildEvent: (TargetId:43)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+11:01:08.044     1>Done building target "PreBuildEvent" in project "labs.vcxproj".: (TargetId:43)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+                   Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+                   Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+11:01:08.044     1>Target "_Xsd: (TargetId:44)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+11:01:08.044     1>Done building target "_Xsd" in project "labs.vcxproj".: (TargetId:44)
+11:01:08.045     1>Target "MakeDirsForMidl: (TargetId:45)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_Midl" depends on it):
+                   Set Property: Midl_OutputDir=
+                   Task "Makedir" (TaskId:30)
+                   Done executing task "Makedir". (TaskId:30)
+11:01:08.045     1>Done building target "MakeDirsForMidl" in project "labs.vcxproj".: (TargetId:45)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+                   Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+                   Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+11:01:08.045     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:46)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_Midl" depends on it):
+                   Set Property: Midl_OutputDir=
+11:01:08.045     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "labs.vcxproj".: (TargetId:46)
+11:01:08.045     1>Target "AfterMidl: (TargetId:47)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_Midl" depends on it):
+11:01:08.045     1>Done building target "AfterMidl" in project "labs.vcxproj".: (TargetId:47)
+11:01:08.045     1>Target "_Midl: (TargetId:48)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+11:01:08.045     1>Done building target "_Midl" in project "labs.vcxproj".: (TargetId:48)
+11:01:08.045     1>Target "AfterBuildGenerateSources: (TargetId:49)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+11:01:08.045     1>Done building target "AfterBuildGenerateSources" in project "labs.vcxproj".: (TargetId:49)
+11:01:08.045     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:50)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+11:01:08.045     1>Done building target "AfterBuildGenerateSourcesEvent" in project "labs.vcxproj".: (TargetId:50)
+11:01:08.045     1>Target "_BuildGenerateSourcesAction: (TargetId:51)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "BuildGenerateSources" depends on it):
+11:01:08.045     1>Done building target "_BuildGenerateSourcesAction" in project "labs.vcxproj".: (TargetId:51)
+11:01:08.045     1>Target "BuildGenerateSources: (TargetId:52)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "Build" depends on it):
+11:01:08.045     1>Done building target "BuildGenerateSources" in project "labs.vcxproj".: (TargetId:52)
+                   Target "PrepareProjectReferences" skipped. Previously built successfully.
+11:01:08.045     1>Target "BuildCompileTraverse: (TargetId:53)" in file "C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+11:01:08.045     1>Done building target "BuildCompileTraverse" in project "labs.vcxproj".: (TargetId:53)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+11:01:08.045     1>Target "BeforeClCompile: (TargetId:54)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_ClCompile" depends on it):
+11:01:08.045     1>Done building target "BeforeClCompile" in project "labs.vcxproj".: (TargetId:54)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+11:01:08.045     1>Target "ComputeCLInputPDBName: (TargetId:55)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_ClCompile" depends on it):
+11:01:08.045     1>Done building target "ComputeCLInputPDBName" in project "labs.vcxproj".: (TargetId:55)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+11:01:08.045     1>Target "ComputeReferenceCLInput: (TargetId:56)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+11:01:08.046     1>Done building target "ComputeReferenceCLInput" in project "labs.vcxproj".: (TargetId:56)
+11:01:08.046     1>Target "WarnCompileDuplicatedFilename: (TargetId:57)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_ClCompile" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'lab_1.cpp' != 'lab_1.cpp' and 'Debug\' == 'Debug\').
+11:01:08.046     1>Done building target "WarnCompileDuplicatedFilename" in project "labs.vcxproj".: (TargetId:57)
+11:01:08.046     1>Target "FixupCLCompileOptions: (TargetId:58)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_ClCompile" depends on it):
+11:01:08.047     1>Done building target "FixupCLCompileOptions" in project "labs.vcxproj".: (TargetId:58)
+11:01:08.047     1>Target "MakeDirsForCl: (TargetId:59)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_ClCompile" depends on it):
+                   Added Item(s): ClDirsToMake=C:\git\myLabs\labs\Debug
+                   Added Item(s): ClDirsToMake=C:\git\myLabs\labs\Debug
+                   Added Item(s): ClDirsToMake=C:\git\myLabs\labs\Debug
+                   Added Item(s): ClDirsToMake=C:\git\myLabs\labs\Debug
+                   Task "MakeDir" (TaskId:31)
+                     Task Parameter:
+                         Directories=
+                             C:\git\myLabs\labs\Debug
+                             C:\git\myLabs\labs\Debug
+                             C:\git\myLabs\labs\Debug
+                             C:\git\myLabs\labs\Debug (TaskId:31)
+                   Done executing task "MakeDir". (TaskId:31)
+                   Removed Item(s): 
+                       ClDirsToMake=
+                           C:\git\myLabs\labs\Debug
+                           C:\git\myLabs\labs\Debug
+                           C:\git\myLabs\labs\Debug
+                           C:\git\myLabs\labs\Debug
+11:01:08.048     1>Done building target "MakeDirsForCl" in project "labs.vcxproj".: (TargetId:59)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
+11:01:08.049     1>Target "_SelectedFiles: (TargetId:60)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "SelectClCompile" depends on it):
+11:01:08.049     1>Done building target "_SelectedFiles" in project "labs.vcxproj".: (TargetId:60)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+                   Target "FixupCLCompileOptions" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+11:01:08.049     1>Target "SelectCustomBuild: (TargetId:61)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "SelectClCompile" depends on it):
+11:01:08.049     1>Done building target "SelectCustomBuild" in project "labs.vcxproj".: (TargetId:61)
+11:01:08.049     1>Target "SelectClCompile: (TargetId:62)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "ClCompile" depends on it):
+11:01:08.049     1>Done building target "SelectClCompile" in project "labs.vcxproj".: (TargetId:62)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('lab_1.cpp' != '' and 'false' == 'True').
+11:01:08.049     1>Target "ClCompile: (TargetId:63)" in file "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\git\myLabs\labs\labs.vcxproj" (target "_ClCompile" depends on it):
+                   Set Property: CLToolArchitecture=Native32Bit
+                   Set Property: CLDeleteOutputOnExecute=true
+                   Task "Delete" (TaskId:32)
+                   Done executing task "Delete". (TaskId:32)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('' == 'Create' and ''!='true' and '' == '').
+                   Using "CL" task from assembly "C:\Program Files\visual studio 2017\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
+                   Task "CL" (TaskId:33)
+                     Task Parameter:BuildingInIde=True (TaskId:33)
+                     Task Parameter:
+                         Sources=
+                             lab_1.cpp
+                                     AcceptableNonZeroExitCodes=
+                                     AssemblerListingLocation=
+                                     AssemblerOutput=NoListing
+                                     BasicRuntimeChecks=EnableFastChecks
+                                     BrowseInformation=false
+                                     BrowseInformationFile=Debug\
+                                     BufferSecurityCheck=true
+                                     CallingConvention=Cdecl
+                                     CompileAs=CompileAsCpp
+                                     DebugInformationFormat=EditAndContinue
+                                     DiagnosticsFormat=Classic
+                                     DisableLanguageExtensions=false
+                                     EnableEnhancedInstructionSet=NotSet
+                                     EnableFiberSafeOptimizations=false
+                                     EnablePREfast=false
+                                     ErrorReporting=Prompt
+                                     ExceptionHandling=Sync
+                                     ExpandAttributedSource=false
+                                     FavorSizeOrSpeed=Neither
+                                     FloatingPointModel=Precise
+                                     ForceConformanceInForLoopScope=true
+                                     ForcedIncludeFiles=
+                                     ForcedUsingFiles=
+                                     GenerateXMLDocumentationFiles=false
+                                     IgnoreStandardIncludePath=false
+                                     ImpLibCompiled=
+                                     InlineFunctionExpansion=Default
+                                     IntrinsicFunctions=false
+                                     LibCompiled=
+                                     LinkCompiled=true
+                                     MinimalRebuild=true
+                                     MinimalRebuildFromTracking=true
+                                     ObjectFileName=Debug\
+                                     OmitDefaultLibName=false
+                                     OmitFramePointers=false
+                                     Optimization=Disabled
+                                     PrecompiledHeader=
+                                     PrecompiledHeaderFile=
+                                     PrecompiledHeaderOutputFile=
+                                     PreprocessKeepComments=false
+                                     PreprocessorDefinitions=WIN32;_DEBUG;_CONSOLE;_UNICODE;UNICODE;
+                                     PreprocessSuppressLineNumbers=false
+                                     PreprocessToFile=false
+                                     ProgramDataBaseFileName=Debug\vc141.pdb
+                                     RemoveUnreferencedCodeData=true
+                                     RuntimeLibrary=MultiThreadedDebugDll
+                                     SDLCheck=true
+                                     ShowIncludes=false
+                                     SmallerTypeCheck=false
+                                     StructMemberAlignment=Default
+                                     SuppressStartupBanner=true
+                                     TrackerLogDirectory=Debug\lab_1.tlog\
+                                     TreatWarningAsError=false
+                                     TreatWChar_tAsBuiltInType=true
+                                     UndefineAllPreprocessorDefinitions=false
+                                     UseFullPaths=false
+                                     UseUnicodeForAssemblerListing=
+                                     WarningLevel=Level3
+                                     WholeProgramOptimization=false
+                                     WinRTNoStdLib=false
+                                     XMLDocumentationFileName=Debug\ (TaskId:33)
+                     Task Parameter:AssemblerOutput=NoListing (TaskId:33)
+                     Task Parameter:BasicRuntimeChecks=EnableFastChecks (TaskId:33)
+                     Task Parameter:BrowseInformation=False (TaskId:33)
+                     Task Parameter:BrowseInformationFile=Debug\ (TaskId:33)
+                     Task Parameter:BufferSecurityCheck=true (TaskId:33)
+                     Task Parameter:CallingConvention=Cdecl (TaskId:33)
+                     Task Parameter:CompileAs=CompileAsCpp (TaskId:33)
+                     Task Parameter:DebugInformationFormat=EditAndContinue (TaskId:33)
+                     Task Parameter:DiagnosticsFormat=Classic (TaskId:33)
+                     Task Parameter:DisableLanguageExtensions=False (TaskId:33)
+                     Task Parameter:EnableEnhancedInstructionSet=NotSet (TaskId:33)
+                     Task Parameter:EnableFiberSafeOptimizations=False (TaskId:33)
+                     Task Parameter:EnablePREfast=False (TaskId:33)
+                     Task Parameter:ErrorReporting=Prompt (TaskId:33)
+                     Task Parameter:ExceptionHandling=Sync (TaskId:33)
+                     Task Parameter:
+                         ExcludedInputPaths=
+                             C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\include
+                             C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\include
+                             C:\Program Files\visual studio 2017\VC\Auxiliary\VS\include
+                             C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt
+                             C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\include
+                             C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um
+                             C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared
+                             C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt
+                             Include\um
+                             C:\Program Files\visual studio 2017\MSBuild\15.0\Bin
+                             C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                             C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\lib\x86
+                             C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\atlmfc\lib\x86
+                             C:\Program Files\visual studio 2017\VC\Auxiliary\VS\lib\x86
+                             C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86
+                             C:\Program Files\visual studio 2017\VC\Auxiliary\VS\UnitTest\lib (TaskId:33)
+                     Task Parameter:ExpandAttributedSource=False (TaskId:33)
+                     Task Parameter:FavorSizeOrSpeed=Neither (TaskId:33)
+                     Task Parameter:FloatingPointModel=Precise (TaskId:33)
+                     Task Parameter:ForceConformanceInForLoopScope=True (TaskId:33)
+                     Task Parameter:GenerateXMLDocumentationFiles=False (TaskId:33)
+                     Task Parameter:IgnoreStandardIncludePath=False (TaskId:33)
+                     Task Parameter:InlineFunctionExpansion=Default (TaskId:33)
+                     Task Parameter:IntrinsicFunctions=False (TaskId:33)
+                     Task Parameter:MinimalRebuild=True (TaskId:33)
+                     Task Parameter:ObjectFileName=Debug\ (TaskId:33)
+                     Task Parameter:OmitDefaultLibName=False (TaskId:33)
+                     Task Parameter:OmitFramePointers=False (TaskId:33)
+                     Task Parameter:Optimization=Disabled (TaskId:33)
+                     Task Parameter:PreprocessKeepComments=False (TaskId:33)
+                     Task Parameter:
+                         PreprocessorDefinitions=
+                             WIN32
+                             _DEBUG
+                             _CONSOLE
+                             _UNICODE
+                             UNICODE (TaskId:33)
+                     Task Parameter:PreprocessSuppressLineNumbers=False (TaskId:33)
+                     Task Parameter:PreprocessToFile=False (TaskId:33)
+                     Task Parameter:ProgramDataBaseFileName=Debug\vc141.pdb (TaskId:33)
+                     Task Parameter:RemoveUnreferencedCodeData=True (TaskId:33)
+                     Task Parameter:RuntimeLibrary=MultiThreadedDebugDll (TaskId:33)
+                     Task Parameter:SDLCheck=True (TaskId:33)
+                     Task Parameter:ShowIncludes=False (TaskId:33)
+                     Task Parameter:SmallerTypeCheck=False (TaskId:33)
+                     Task Parameter:StructMemberAlignment=Default (TaskId:33)
+                     Task Parameter:SuppressStartupBanner=True (TaskId:33)
+                     Task Parameter:TreatWarningAsError=False (TaskId:33)
+                     Task Parameter:TreatWChar_tAsBuiltInType=True (TaskId:33)
+                     Task Parameter:UndefineAllPreprocessorDefinitions=False (TaskId:33)
+                     Task Parameter:UseFullPaths=False (TaskId:33)
+                     Task Parameter:WarningLevel=Level3 (TaskId:33)
+                     Task Parameter:WholeProgramOptimization=False (TaskId:33)
+                     Task Parameter:WinRTNoStdLib=False (TaskId:33)
+                     Task Parameter:XMLDocumentationFileName=Debug\ (TaskId:33)
+                     Task Parameter:TrackerLogDirectory=Debug\lab_1.tlog\ (TaskId:33)
+                     Task Parameter:TrackFileAccess=True (TaskId:33)
+                     Task Parameter:MinimalRebuildFromTracking=True (TaskId:33)
+                     Task Parameter:ToolArchitecture=Native32Bit (TaskId:33)
+                     Task Parameter:DeleteOutputOnExecute=True (TaskId:33)
+                     Task Parameter:YieldDuringToolExecution=True (TaskId:33)
+                     Forcing recompile of all source files due to missing PDB "Debug\vc141.pdb". (TaskId:33)
+                     Environment Variables passed to tool: (TaskId:33)
+                       VS_UNICODE_OUTPUT=2320 (TaskId:33)
+                     C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt lab_1.cpp (TaskId:33)
+                     Tracking command: (TaskId:33)
+                     C:\Program Files\visual studio 2017\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\git\myLabs\labs\Debug\lab_1.tlog /r C:\GIT\MYLABS\LABS\LAB_1.CPP /b MSBuildConsole_CancelEvent394418d74b134d4e93b2b16b0e1edd61  /c "C:\Program Files\visual studio 2017\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe"  /c /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt lab_1.cpp (TaskId:33)
+                     lab_1.cpp (TaskId:33)
+11:01:08.293     1>c:\git\mylabs\labs\lab_1.cpp(14): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                     c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf' (TaskId:33)
+11:01:08.293     1>c:\git\mylabs\labs\lab_1.cpp(22): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                     c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf' (TaskId:33)
+                     The command exited with code 2. (TaskId:33)
+                   Done executing task "CL" -- FAILED. (TaskId:33)
+11:01:08.780     1>Done building target "ClCompile" in project "labs.vcxproj" -- FAILED.: (TargetId:63)
+11:01:08.780     1>Done Building Project "C:\git\myLabs\labs\labs.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Project Performance Summary:
+      805 ms  C:\git\myLabs\labs\labs.vcxproj            1 calls
+                805 ms  Rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  Desktop_PlatformPrepareForBuild            1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  _PrepareForClean                           1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  WarnCompileDuplicatedFilename              1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  BeforeCppClean                             1 calls
+        1 ms  _SelectedFiles                             1 calls
+        1 ms  BuildGenerateSourcesTraverse               1 calls
+        1 ms  FixupCLCompileOptions                      1 calls
+        1 ms  PreBuildEvent                              1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  CoreClean                                  1 calls
+        1 ms  GetResolvedWinMD                           1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  PGInstrumentedClean                        1 calls
+        2 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        2 ms  AssignProjectConfiguration                 1 calls
+        2 ms  _HandlePackageFileConflicts                1 calls
+        3 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        4 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        8 ms  PrepareForBuild                            1 calls
+       11 ms  InitializeBuildStatus                      1 calls
+       29 ms  CoreCppClean                               1 calls
+      730 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Message                                    2 calls
+        0 ms  Delete                                     5 calls
+        0 ms  ReadLinesFromFile                          2 calls
+        0 ms  RemoveDuplicates                           1 calls
+        0 ms  MSBuild                                    1 calls
+        0 ms  SetEnvironmentVariable                     1 calls
+        1 ms  MakeDir                                    6 calls
+        1 ms  FindUnderPath                              2 calls
+        1 ms  Touch                                      1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        2 ms  SetEnv                                     4 calls
+        2 ms  ResolvePackageFileConflicts                1 calls
+       12 ms  WriteLinesToFile                           3 calls
+       27 ms  CppClean                                   1 calls
+      728 ms  CL                                         1 calls
